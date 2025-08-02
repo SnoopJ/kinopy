@@ -15,10 +15,9 @@ if __name__ == "__main__":
     mindate = min(presentations.keys())
     nextmonth = date(year=mindate.year, month=mindate.month+1, day=1)
 
-    filtered_shows = {dt.day: [show for slug,show in pres.items()] for dt, pres in presentations.items() if dt < nextmonth}
+    filtered_shows = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in presentations.items() if dt < nextmonth}
 
     cal = ShowingCalendar(filtered_shows)
-
 
     cal_table = cal.formatmonth(mindate.year, mindate.month)
 
