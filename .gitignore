@@ -1,0 +1,9 @@
+.envrc
+.direnv
+.python-version
+
+build
+venv
+
+*.pyc
+*.egg-info
