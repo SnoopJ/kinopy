@@ -1,0 +1,17 @@
+table {
+    border: 2px solid black;
+}
+
+.month {
+    background-color: #888;
+}
+
+.mon-head, .tue-head, .wed-head, .thu-head, .fri-head, .sat-head, .sun-head {
+    border-bottom: 2px solid black;
+    background-color: #aaa;
+}
+
+.mon, .tue, .wed, .thu, .fri, .sat, .sun, .noday {
+    border: 1px solid black;
+    background-color: lavender;
+}
