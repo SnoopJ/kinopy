@@ -31,10 +31,9 @@ class ShowingCalendar(HTMLCalendar):
             return dedent(
                 f'''
                 <td class="{wd}">
-                {day} <br/>
-                <ul>
-                    {shows_txt}
-                </ul>
+                    <ul>
+                        {shows_txt}
+                    </ul>
                 </td>
                 '''
             )

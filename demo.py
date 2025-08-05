@@ -19,7 +19,16 @@ if __name__ == "__main__":
 
     cal = ShowingCalendar(filtered_shows)
 
-    cal_table = cal.formatmonth(mindate.year, mindate.month)
+    #cal_table = cal.formatmonth(mindate.year, mindate.month)
+    today = date.today()
+    week = []
+    for n in range(6):
+        d = today + timedelta(days=n)
+        week.append((d.day, d.weekday()))
+
+    cal_table = cal.formatweek(week)
+
+    daytxt = '\n'.join(f'<th class="daynum">{cal.cssclasses[wd].title()} {day}</th>' for (day, wd) in week)
 
     html = dedent(
         f"""
@@ -29,10 +38,20 @@ if __name__ == "__main__":
             <link type="text/css" rel="stylesheet" href="cal.css" />
         </head>
         <body>
-            {cal_table}
+            <table>
+                <thead>
+                    <th colspan=6>
+                        <h3>Aug {week[0][0]} - {week[-1][0]}</h3>
+                    </th>
+                </thead>
+                <thead>
+                    {daytxt}
+                </thead>
+                {cal_table}
+            </table>
         </body>
         </html>
         """
     )
 
-    Path("out.html").write_text(html)
+    Path("cal2.html").write_text(html)

@@ -2,6 +2,32 @@ table {
     border: 2px solid black;
 }
 
+th {
+    text-align: center;
+    background-color: #aaa;
+    border: 2px solid black;
+}
+
+h3 {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+td {
+    padding: 0.2em;
+}
+
+ul {
+    padding-top: 0.8em;
+    padding-right: 1em;
+}
+
+.daynum {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+*/
+
 .month {
     background-color: #888;
 }
