@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     cal = ShowingCalendar(filtered_shows)
 
-    #cal_table = cal.formatmonth(mindate.year, mindate.month)
+    # TODO: render other weeks, lock each week to Monday? definitely shouldn't be relative to today
     today = date.today()
     week = []
     for n in range(6):
