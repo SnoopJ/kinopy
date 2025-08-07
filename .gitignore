@@ -3,6 +3,7 @@
 .python-version
 
 build
+kinopy_cache
 venv
 
 *.pyc

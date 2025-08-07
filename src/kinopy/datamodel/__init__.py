@@ -5,5 +5,6 @@ from .showing import Showing
 from .types_ import Day, Cinema
 
 
+# TODO: using CWD for this isn't a great idea
 CACHE_ROOT = Path().joinpath("kinopy_cache")
 CACHE_ROOT.mkdir(exist_ok=True, parents=True)
