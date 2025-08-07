@@ -1,34 +1,40 @@
+from __future__ import annotations
+
 import json
 from datetime import date, timedelta
 from pathlib import Path
 from textwrap import dedent
 
-from kinopy.datamodel import ShowingCalendar
-from kinopy.provider import AlamoProvider
+from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
+from kinopy.provider import AlamoProvider, CoolidgeCornerProvider
 
 
 HERE = Path(__file__).parent
 
 if __name__ == "__main__":
-    src = HERE.joinpath("example_data", "alamo.json").read_text()
-    presentations = AlamoProvider.from_json(src)
-    mindate = min(presentations.keys())
-    nextmonth = date(year=mindate.year, month=mindate.month+1, day=1)
+    shows: dict[Cinema, dict[Day, Showing]] = {}
 
-    filtered_shows = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in presentations.items() if dt < nextmonth}
-
-    cal = ShowingCalendar(filtered_shows)
-
-    # TODO: render other weeks, lock each week to Monday? definitely shouldn't be relative to today
     today = date.today()
-    week = []
-    for n in range(6):
-        d = today + timedelta(days=n)
-        week.append((d.day, d.weekday()))
 
-    cal_table = cal.formatweek(week)
+    # ALAMO
+    alamo_src = AlamoProvider.showings_json()
+    alamo_presentations = AlamoProvider.from_json(alamo_src)
+    mindate = min(alamo_presentations.keys())
+    nextmonth = date(year=mindate.year, month=mindate.month+1, day=1)
+    # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
+    # TODO: handle month boundary
+    shows["Alamo Drafthouse"] = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items()}
 
-    daytxt = '\n'.join(f'<th class="daynum">{cal.cssclasses[wd].title()} {day}</th>' for (day, wd) in week)
+    # COOLIDGE
+    # Implement the rest of the owl
+    dates = [today+timedelta(days=n) for n in range(7)]
+    coolidge_presentations = CoolidgeCornerProvider.showings_for_dates(dates=dates)
+    shows["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+
+    # Showtime!
+    cal = ShowingCalendar(shows)
+
+    cal_table = cal.formatweek()
 
     html = dedent(
         f"""
@@ -38,20 +44,10 @@ if __name__ == "__main__":
             <link type="text/css" rel="stylesheet" href="cal.css" />
         </head>
         <body>
-            <table>
-                <thead>
-                    <th colspan=6>
-                        <h3>Aug {week[0][0]} - {week[-1][0]}</h3>
-                    </th>
-                </thead>
-                <thead>
-                    {daytxt}
-                </thead>
-                {cal_table}
-            </table>
+            {cal_table}
         </body>
         </html>
         """
     )
 
-    Path("cal2.html").write_text(html)
+    Path("cal.html").write_text(html)
