@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import itertools
 from datetime import date, timedelta
 from pathlib import Path
 from textwrap import dedent
@@ -36,15 +37,27 @@ if __name__ == "__main__":
 
     cal_table = cal.formatweek()
 
+    cinema_checkboxes = "\n".join(f'<input type="checkbox" checked=on onClick="toggleCinema(\'{cinema.replace(" ", "-")}\')">{cinema.title()}</input> <br/>' for cinema in shows.keys())
+    show_titles = set(show.title for showlst in itertools.chain.from_iterable(cinema.values() for cinema in shows.values()) for show in showlst)
+    title_checkboxes = "\n".join(f'<input type="checkbox" checked=on onClick="toggleMovie(\'{title}\')">{title}</input> <br/>' for title in sorted(show_titles))
+
     html = dedent(
         f"""
         <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
             <link type="text/css" rel="stylesheet" href="cal.css" />
+            <script src="cal.js"></script>
         </head>
         <body>
             {cal_table}
+
+            <hr/>
+            {cinema_checkboxes}
+            <div class="title-filters">
+                {title_checkboxes}
+            </div>
+
         </body>
         </html>
         """
