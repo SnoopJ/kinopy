@@ -7,7 +7,6 @@ from typing import Any
 
 from ..datamodel import Showing
 from ..util import StrEnum
-from .showingprovider import ShowingJSONProvider
 
 
 class ShowingStatus(StrEnum):
@@ -17,7 +16,7 @@ class ShowingStatus(StrEnum):
 
 BOSTON = 2901
 
-class AlamoProvider(ShowingJSONProvider):
+class AlamoProvider:
     JSON_URL = "https://drafthouse.com/s/mother/v2/schedule/market/boston"
     PRESENTATION_URL_PATT = "https://drafthouse.com/boston/show/{slug}?cinemaId={cinemaId}"
     # can also add sessionId=… to get a specific showing, not that I expect to use it
@@ -86,5 +85,3 @@ class AlamoProvider(ShowingJSONProvider):
         return result
 
     @classmethod
-    def to_calendar_html(cls) -> str:
-        raise NotImplementedError

@@ -1,8 +1,6 @@
 from ..datamodel import Showing
-from .showingprovider import ShowingHTMLProvider
 
-
-class CoolidgeCornerProvider(ShowingHTMLProvider):
+class CoolidgeCornerProvider:
     @classmethod
     def from_html(cls, film_card: lxml.html.Element):
         link = film_card.xpath(".//film-card__link")
@@ -18,5 +16,3 @@ class CoolidgeCornerProvider(ShowingHTMLProvider):
         )
 
     @classmethod
-    def to_calendar_html(cls) -> str:
-        raise NotImplementedError
