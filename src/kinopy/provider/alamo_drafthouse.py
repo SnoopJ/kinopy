@@ -5,8 +5,14 @@ from collections import defaultdict
 from datetime import date, datetime
 from typing import Any
 
-from ..datamodel import Showing
+import requests
+
+from ..datamodel import CACHE_ROOT, Showing
 from ..util import StrEnum
+
+
+CACHE = CACHE_ROOT.joinpath("AlamoDrafthouse")
+CACHE.mkdir(exist_ok=True, parents=True)
 
 
 class ShowingStatus(StrEnum):
@@ -29,9 +35,7 @@ class AlamoProvider:
     # TODO: ugh the return types are going to be a bit of a nuisance since different data sources provide different
     # temporal granularity, but maybe mapping-of-mapping is the way to go in general?
     @classmethod
-    def from_json(cls, src: str) -> dict[date, dict[Slug, list[Showing]]]:
-        data = json.loads(src)
-
+    def from_json(cls, data: dict) -> dict[date, dict[Slug, list[Showing]]]:
         presentation_data = {pres["slug"]: pres for pres in data["data"]["presentations"]}
         sessions_by_date = cls.sessions_by_date(data, presentation_data)
 
@@ -85,3 +89,16 @@ class AlamoProvider:
         return result
 
     @classmethod
+    def showings_json(cls) -> dict:
+        fn = CACHE.joinpath(f"{date.today().isoformat()}.json")
+        if fn.exists():
+            result = json.loads(fn.read_text())
+        else:
+            response = requests.get(cls.JSON_URL)
+            response.raise_for_status()
+
+            result = response.json()
+
+            fn.write_text(json.dumps(result))
+
+        return result
