@@ -1,0 +1,2 @@
+Day = int
+Cinema = str
