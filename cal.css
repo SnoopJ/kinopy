@@ -1,11 +1,11 @@
 table {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 th {
     text-align: center;
     background-color: #aaa;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 h3 {
@@ -14,7 +14,10 @@ h3 {
 }
 
 td {
+    vertical-align: top;
     padding: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
 }
 
 ul {
@@ -37,7 +40,29 @@ ul {
     background-color: #aaa;
 }
 
-.mon, .tue, .wed, .thu, .fri, .sat, .sun, .noday {
+.mon, .tue, .wed, .thu, .fri, .noday {
     border: 1px solid black;
-    background-color: lavender;
+    background-color: #aaaaaa;
+}
+
+.sat, .sun {
+    border: 1px solid black;
+    background-color: #cccccc;
+}
+
+
+/* cinema styling */
+
+.cinema-root {
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.alamo-drafthouse {
+    background-color: #f5b32488;
+}
+
+.coolidge-corner-theatre {
+    background-color: #ec212755;
 }
