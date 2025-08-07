@@ -15,15 +15,15 @@ if __name__ == "__main__":
     shows: dict[Cinema, dict[Day, Showing]] = {}
 
     today = date.today()
+    nextweek = today + timedelta(days=7)
 
     # ALAMO
     alamo_src = AlamoProvider.showings_json()
     alamo_presentations = AlamoProvider.from_json(alamo_src)
-    mindate = min(alamo_presentations.keys())
-    nextmonth = date(year=mindate.year, month=mindate.month+1, day=1)
+    alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
     # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
     # TODO: handle month boundary
-    shows["Alamo Drafthouse"] = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items()}
+    shows["Alamo Drafthouse"] = alamo_filtered
 
     # COOLIDGE
     # Implement the rest of the owl
