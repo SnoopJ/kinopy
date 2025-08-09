@@ -8,7 +8,7 @@ from pathlib import Path
 from textwrap import dedent
 
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
-from kinopy.provider import AlamoProvider, CoolidgeCornerProvider
+from kinopy.provider import AlamoProvider, CoolidgeCornerProvider, SomervilleTheatreProvider
 
 if sys.version_info < (3, 11):
     import tomli as tomllib
@@ -45,6 +45,14 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     dates = [today+timedelta(days=n) for n in range(7)]
     coolidge_presentations = CoolidgeCornerProvider.showings_for_dates(dates=dates)
     results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+
+    # SOMERVILLE
+    token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
+    if token:
+        somerville_presentations = SomervilleTheatreProvider(veezi_token=token).showings_by_date()
+        results["Somerville Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in somerville_presentations.items() if dt in dates}
+    else:
+        print("No access token for Somerville Theatre, skipping")
 
     return results
 
