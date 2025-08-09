@@ -45,10 +45,11 @@ class AlamoProvider:
             for slug, sessions in ses_by_pres.items():
                 # ASSUME: there's at least one session and they're all in the same cinemaId
                 cinemaId = sessions[0]["cinemaId"]
+                sessionId = sessions[0]["sessionId"]
                 pres = presentation_data[slug]
 
                 title = pres["show"]["title"]
-                url = cls.PRESENTATION_URL_PATT.format(slug=slug, cinemaId=cinemaId)
+                url = cls.SESSION_URL_PATT.format(slug=slug, cinemaId=cinemaId, sessionId=sessionId)
                 # TODO: idk what I'm doing with showtimes so I guess let's coerce to str here and deal with it later
                 showtimes = [str(datetime.fromisoformat(s["showTimeUtc"])) for s in sessions]
                 excerpt = None
