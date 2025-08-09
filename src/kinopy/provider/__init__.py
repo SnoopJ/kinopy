@@ -1,3 +1,4 @@
 from .alamo_drafthouse import AlamoProvider
 from .coolidge_corner import CoolidgeCornerProvider
+from .landmark_kendall import LandmarkKendallSquareProvider
 from .somerville_theatre import SomervilleTheatreProvider

@@ -1,0 +1,2508 @@
+[
+  {
+    "id": "225885",
+    "title": "The Naked Gun",
+    "runtime": 5100,
+    "genres": "Comedy, Action",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "img/82/41/8241c3e614c75c2489cae7bb11c32520.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/d7/8e/d78eea67606bfa228b8f56d4946fe84b.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/cd/46/cd46f692e855d741695c42bf12565bd2.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/07/68/076834c3a63f9df3257784570914eecb.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "embargoes": [
+      {
+        "bookableAt": "2025-07-14T04:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Akiva",
+            "lastName": "Schaffer",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Liam",
+            "lastName": "Neeson",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Pamela",
+            "lastName": "Anderson",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Paul Walter",
+            "lastName": "Hauser",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Moses",
+            "lastName": "Jones",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Danny",
+            "lastName": "Huston",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "CCH",
+            "lastName": "Pounder",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Kevin",
+            "lastName": "Durand",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Liza",
+            "lastName": "Koshy",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Eddie",
+            "lastName": "Yu",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Busta",
+            "lastName": "Rhymes",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "The Naked Gun",
+      "synopsis": "Only one man has the particular set of skills... to lead Police Squad and save the world! Lt. Frank Drebin Jr. (Liam Neeson) follows in his father's footsteps in THE NAKED GUN, directed by Akiva Schaffer (Saturday Night Live, Popstar: Never Stop Never Stopping) and from producer Seth MacFarlane (Ted, Family Guy).",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/360616_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/360616_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/82/41/8241c3e614c75c2489cae7bb11c32520.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/26e17da9ca839b230e05ccaf8990e3bf.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-01T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "46",
+            "name": "Paramount Pictures",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "for crude/sexual material, violence/bloody images and brief partial nudity.",
+          "__typename": "Rating",
+          "certificate": "PG-13"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "The Naked Gun",
+    "synopsis": "Only one man has the particular set of skills... to lead Police Squad and save the world! Lt. Frank Drebin Jr. (Liam Neeson) follows in his father's footsteps in THE NAKED GUN, directed by Akiva Schaffer (Saturday Night Live, Popstar: Never Stop Never Stopping) and from producer Seth MacFarlane (Ted, Family Guy).",
+    "certificate": "PG-13",
+    "casting": [
+      "Liam Neeson",
+      "Pamela Anderson",
+      "Paul Walter Hauser",
+      "Moses Jones",
+      "Danny Huston",
+      "CCH Pounder",
+      "Kevin Durand",
+      "Liza Koshy",
+      "Eddie Yu",
+      "Busta Rhymes"
+    ],
+    "direction": [
+      "Akiva Schaffer"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/d7/8e/d78eea67606bfa228b8f56d4946fe84b.jpg",
+      "img/cd/46/cd46f692e855d741695c42bf12565bd2.jpg",
+      "img/07/68/076834c3a63f9df3257784570914eecb.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/26e17da9ca839b230e05ccaf8990e3bf.jpg"
+    ],
+    "release": "2025-08-01T00:00:00.000Z",
+    "advisory": "for crude/sexual material, violence/bloody images and brief partial nudity.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/360616_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/360616_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Paramount Pictures"
+    }
+  },
+  {
+    "id": "226116",
+    "title": "The Fantastic Four: First Steps",
+    "runtime": 6900,
+    "genres": "Fantasy, Action",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "img/46/d2/46d20250ea61a7ec9e76b2b315c345af.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/24/e2/24e24803eb7560b7983d8c7efa16e120.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/fb/ea/fbea9ef86b737022fa4ac68a5be00076.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/c1/92/c19206e76f634742408295f747779b5f.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/36/33/3633b5d6692d743da15b36129c54ac8d.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/4a/e2/4ae24d026dddf0854165eb563c512741.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/5a/6f/5a6f8b73c42b3b0a914a0cd6ce43825f.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/52/50/52508c51e2faac26fb63e8b89a03a50f.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/f4/1c/f41cefc095d7c850b7268969767b1478.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/48/22/48221f8b5685d9caa0276655ef359370.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/97/b9/97b9a4f4a3e50ce90786d8dc61d30f0a.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "embargoes": [
+      {
+        "bookableAt": "2025-06-04T13:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Matt",
+            "lastName": "Shakman",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Pedro",
+            "lastName": "Pascal",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Vanessa",
+            "lastName": "Kirby",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Joseph",
+            "lastName": "Quinn",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Ebon",
+            "lastName": "Moss-Bachrach",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Ralph",
+            "lastName": "Ineson",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Julia",
+            "lastName": "Garner",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Paul Walter",
+            "lastName": "Hauser",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Natasha",
+            "lastName": "Lyonne",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sarah",
+            "lastName": "Niles",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Matthew",
+            "lastName": "Wood",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "locale": {
+      "title": "The Fantastic Four: First Steps",
+      "synopsis": "Set against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel Studios’ “The Fantastic Four: First Steps” introduces Marvel’s First Family—Reed Richards/Mister Fantastic (Pedro Pascal), Sue Storm/Invisible Woman (Vanessa Kirby), Johnny Storm/Human Torch (Joseph Quinn) and Ben Grimm/The Thing (Ebon Moss-Bachrach) as they face their most daunting challenge yet. Forced to balance their roles as heroes with the strength of their family bond, they must defend Earth from a ravenous space god called Galactus (Ralph Ineson) and his enigmatic Herald, Silver Surfer (Julia Garner). And if Galactus’ plan to devour the entire planet and everyone on it weren’t bad enough, it suddenly gets very personal.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/338995_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/338995_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/46/d2/46d20250ea61a7ec9e76b2b315c345af.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/50dc6e9f78b5a37389846d79010bebba.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-07-25T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "68",
+            "name": "Walt Disney Pictures",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "for action/violence and some language.",
+          "__typename": "Rating",
+          "certificate": "PG-13"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "The Fantastic Four: First Steps",
+    "synopsis": "Set against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel Studios’ “The Fantastic Four: First Steps” introduces Marvel’s First Family—Reed Richards/Mister Fantastic (Pedro Pascal), Sue Storm/Invisible Woman (Vanessa Kirby), Johnny Storm/Human Torch (Joseph Quinn) and Ben Grimm/The Thing (Ebon Moss-Bachrach) as they face their most daunting challenge yet. Forced to balance their roles as heroes with the strength of their family bond, they must defend Earth from a ravenous space god called Galactus (Ralph Ineson) and his enigmatic Herald, Silver Surfer (Julia Garner). And if Galactus’ plan to devour the entire planet and everyone on it weren’t bad enough, it suddenly gets very personal.",
+    "certificate": "PG-13",
+    "casting": [
+      "Pedro Pascal",
+      "Vanessa Kirby",
+      "Joseph Quinn",
+      "Ebon Moss-Bachrach",
+      "Ralph Ineson",
+      "Julia Garner",
+      "Paul Walter Hauser",
+      "Natasha Lyonne",
+      "Sarah Niles",
+      "Matthew Wood"
+    ],
+    "direction": [
+      "Matt Shakman"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/24/e2/24e24803eb7560b7983d8c7efa16e120.jpg",
+      "img/fb/ea/fbea9ef86b737022fa4ac68a5be00076.jpg",
+      "img/c1/92/c19206e76f634742408295f747779b5f.jpg",
+      "img/36/33/3633b5d6692d743da15b36129c54ac8d.jpg",
+      "img/4a/e2/4ae24d026dddf0854165eb563c512741.jpg",
+      "img/5a/6f/5a6f8b73c42b3b0a914a0cd6ce43825f.jpg",
+      "img/52/50/52508c51e2faac26fb63e8b89a03a50f.jpg",
+      "img/f4/1c/f41cefc095d7c850b7268969767b1478.jpg",
+      "img/48/22/48221f8b5685d9caa0276655ef359370.jpg",
+      "img/97/b9/97b9a4f4a3e50ce90786d8dc61d30f0a.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/50dc6e9f78b5a37389846d79010bebba.jpg"
+    ],
+    "release": "2025-07-25T00:00:00.000Z",
+    "advisory": "for action/violence and some language.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/338995_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/338995_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Walt Disney Pictures"
+    }
+  },
+  {
+    "id": "229669",
+    "title": "Superman",
+    "runtime": 7740,
+    "genres": "Action, Science fiction, Adventure",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "img/5f/24/5f24310e1e6deb7c31068594d900eeff.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/e2/77/e277506377b1d54581d924ceb9d3b4b3.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/e3/36/e336c4278fea4270fa9bb46239ef507e.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/c4/4b/c44b76b79afc65452f5ddc3f3ecf35b6.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "embargoes": [
+      {
+        "bookableAt": "2025-06-11T16:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "James",
+            "lastName": "Gunn",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "David",
+            "lastName": "Corenswet",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Rachel",
+            "lastName": "Brosnahan",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Nathan",
+            "lastName": "Fillion",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Isabela",
+            "lastName": "Merced",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Edi",
+            "lastName": "Gathegi",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Anthony",
+            "lastName": "Carrigan",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Maria Gabriela",
+            "lastName": "de Faría",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Nicholas",
+            "lastName": "Hoult",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sara",
+            "lastName": "Sampaio",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Frank",
+            "lastName": "Grillo",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "Superman",
+      "synopsis": "“Superman,” DC Studios’ first feature film to hit the big screen, is set to soar into theaters worldwide this summer from Warner Bros. Pictures. In his signature style, James Gunn takes on the original superhero in the newly imagined DC universe with a singular blend of epic action, humor and heart, delivering a Superman who’s driven by compassion and an inherent belief in the goodness of humankind.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/343208_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/343208_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/5f/24/5f24310e1e6deb7c31068594d900eeff.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/e8b470ae45a4256bea702ea8c1068f9e.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-07-11T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "20",
+            "name": "Warner Bros.",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "for violence, action and language.",
+          "__typename": "Rating",
+          "certificate": "PG-13"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Superman",
+    "synopsis": "“Superman,” DC Studios’ first feature film to hit the big screen, is set to soar into theaters worldwide this summer from Warner Bros. Pictures. In his signature style, James Gunn takes on the original superhero in the newly imagined DC universe with a singular blend of epic action, humor and heart, delivering a Superman who’s driven by compassion and an inherent belief in the goodness of humankind.",
+    "certificate": "PG-13",
+    "casting": [
+      "David Corenswet",
+      "Rachel Brosnahan",
+      "Nathan Fillion",
+      "Isabela Merced",
+      "Edi Gathegi",
+      "Anthony Carrigan",
+      "Maria Gabriela de Faría",
+      "Nicholas Hoult",
+      "Sara Sampaio",
+      "Frank Grillo"
+    ],
+    "direction": [
+      "James Gunn"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/e2/77/e277506377b1d54581d924ceb9d3b4b3.jpg",
+      "img/e3/36/e336c4278fea4270fa9bb46239ef507e.jpg",
+      "img/c4/4b/c44b76b79afc65452f5ddc3f3ecf35b6.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/e8b470ae45a4256bea702ea8c1068f9e.jpg"
+    ],
+    "release": "2025-07-11T00:00:00.000Z",
+    "advisory": "for violence, action and language.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/343208_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/343208_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Warner Bros."
+    }
+  },
+  {
+    "id": "230803",
+    "title": "Smallfoot",
+    "runtime": 5820,
+    "genres": "Animation, Adventure",
+    "__typename": "Movie",
+    "quadImages": [],
+    "poster": "https://cms-assets.webediamovies.pro/production/217/48e3fd4e585e221f63dc3823fced5fdd.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5362847.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5347222.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5333159.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5314409.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5298784.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5283159.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5269096.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5255034.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5237846.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/pictures/17/11/23/12/14/5223784.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Karey",
+            "lastName": "Kirkpatrick",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "coDirectors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Jason A.",
+            "lastName": "Reisig",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Channing",
+            "lastName": "Tatum",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "James",
+            "lastName": "Corden",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": null,
+            "lastName": "Zendaya",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": null,
+            "lastName": "Common",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "LeBron",
+            "lastName": "James",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Danny",
+            "lastName": "DeVito",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Gina",
+            "lastName": "Rodriguez",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Yara",
+            "lastName": "Shahidi",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Ely",
+            "lastName": "Henry",
+            "__typename": "Person"
+          }
+        },
+        {
+          "actor": null,
+          "__typename": "MovieCredit",
+          "localizedVoiceActor": null,
+          "originalVoiceActor": {
+            "firstName": "Patricia",
+            "lastName": "Heaton",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "embargoes": [],
+    "locale": {
+      "title": "Smallfoot",
+      "synopsis": "An animated adventure for all ages, with original music and an all-star cast, Smallfoot turns the Bigfoot legend upside down when a bright young Yeti finds something he thought didn't exist - a human. News of this Smallfoot throws the simple Yeti community into an uproar over what else might be out there in the big world beyond their snowy village, in an all new story about friendship, courage and the joy of discovery.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/250459_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/250459_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/6e/6b/6e6ba7124be6ccc7079199961f76a400.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": []
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2018-09-28T00:00:00.000Z",
+        "__typename": "Release",
+        "localRatings": [],
+        "distributors": [
+          {
+            "id": "20",
+            "name": "Warner Bros.",
+            "__typename": "Company"
+          }
+        ],
+        "rating": {
+          "advisory": null,
+          "__typename": "Rating",
+          "certificate": "PG"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": "//cms-assets.webediamovies.pro/production/217/48e3fd4e585e221f63dc3823fced5fdd.jpg",
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Smallfoot",
+    "synopsis": "An animated adventure for all ages, with original music and an all-star cast, Smallfoot turns the Bigfoot legend upside down when a bright young Yeti finds something he thought didn't exist - a human. News of this Smallfoot throws the simple Yeti community into an uproar over what else might be out there in the big world beyond their snowy village, in an all new story about friendship, courage and the joy of discovery.",
+    "certificate": "PG",
+    "casting": [
+      "Channing Tatum",
+      "James Corden",
+      "Zendaya",
+      "Common",
+      "LeBron James",
+      "Danny DeVito",
+      "Gina Rodriguez",
+      "Yara Shahidi",
+      "Ely Henry",
+      "Patricia Heaton"
+    ],
+    "direction": [
+      "Karey Kirkpatrick"
+    ],
+    "coDirection": [
+      "Jason A. Reisig"
+    ],
+    "pictures": [
+      "pictures/17/11/23/12/14/5362847.jpg",
+      "pictures/17/11/23/12/14/5347222.jpg",
+      "pictures/17/11/23/12/14/5333159.jpg",
+      "pictures/17/11/23/12/14/5314409.jpg",
+      "pictures/17/11/23/12/14/5298784.jpg",
+      "pictures/17/11/23/12/14/5283159.jpg",
+      "pictures/17/11/23/12/14/5269096.jpg",
+      "pictures/17/11/23/12/14/5255034.jpg",
+      "pictures/17/11/23/12/14/5237846.jpg",
+      "pictures/17/11/23/12/14/5223784.jpg"
+    ],
+    "heroImages": [],
+    "release": "2018-09-28T00:00:00.000Z",
+    "advisory": null,
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/250459_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/250459_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Warner Bros."
+    }
+  },
+  {
+    "id": "293844",
+    "title": "Nobody 2",
+    "runtime": 5340,
+    "genres": "Action, Comedy",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "https://cms-assets.webediamovies.pro/production/217/336ff4e6c2932db213229c8689bb9472.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/a8/f3/a8f37ae198831bec2de142a0c812eb5d.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/fc/fc/fcfc8a01e0375340713555cafc1fe50a.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/1d/ae/1dae26110d457e1c1c811a3d69edf4ee.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/8e/02/8e02375f54293b176b43f5af79124a4c.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/4a/71/4a71fc733d2e180c9e08d6fa0aafdf23.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/89/ee/89ee2be3ea260be8e29bcd917bfe74d0.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "embargoes": [
+      {
+        "bookableAt": "2025-07-18T12:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Timo",
+            "lastName": "Tjahjanto",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Bob",
+            "lastName": "Odenkirk",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Connie",
+            "lastName": "Nielsen",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Christopher",
+            "lastName": "Lloyd",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sharon",
+            "lastName": "Stone",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Colin",
+            "lastName": "Hanks",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": null,
+            "lastName": "RZA",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Gage",
+            "lastName": "Munroe",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Paisley",
+            "lastName": "Cadorath",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "John",
+            "lastName": "Ortiz",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Michael",
+            "lastName": "Ironside",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "Nobody 2",
+      "synopsis": "Sometimes the most dangerous place for a dad is a family vacation. \n\nBob Odenkirk returns as suburban husband, father and workaholic assassin Hutch Mansell in the new chapter to Nobody, the hit 2021 bare-knuckle action-thriller that opened at number one at the U.S. box office.  \n\nFour years after he inadvertently took on the Russian mob, Hutch remains $30 million in debt to the criminal organization and is working it off with an unending string of hits on international thugs. \n\nMuch as he likes the slam-bang action of his “job,” Hutch and his wife Becca (International Emmy nominee Connie Nielsen) find themselves overworked and drifting apart. So, they decide to take their kids (Gage Munroe, Paisley Cadorath) on a short getaway to Wild Bill’s Majestic Midway and Waterpark, the one and only place where Hutch and his brother Harry (Grammy and Emmy nominee RZA) went on a vacation as kids. \n\nWith Hutch’s dad (Emmy winner Christopher Lloyd) in tow, the family arrives in the small tourist town of Plummerville (“Plummerville is Summerville!”), eager for some fun in the sun.\n\nBut when a minor encounter with some town bullies yanks the family into the crosshairs of a corrupt theme-park operator (John Ortiz; Fast and Furious franchise, Bumblebee) and his shady sheriff (Emmy and Golden Globe nominee Colin Hanks), Hutch finds himself the focus of the most unhinged, blood-thirsty crime boss he (or anyone) has ever encountered (Emmy winning and Oscar® nominated screen icon, Sharon Stone).",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/367934_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/367934_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/36/6f/366f44cf51fa900ffe892fa109ba4f4e.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/1f16d43a018457299888548862ce2148.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-15T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "22",
+            "name": "Universal Pictures",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "for strong bloody violence, and language throughout.",
+          "__typename": "Rating",
+          "certificate": "R"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": "//cms-assets.webediamovies.pro/production/217/336ff4e6c2932db213229c8689bb9472.jpg",
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Nobody 2",
+    "synopsis": "Sometimes the most dangerous place for a dad is a family vacation. \n\nBob Odenkirk returns as suburban husband, father and workaholic assassin Hutch Mansell in the new chapter to Nobody, the hit 2021 bare-knuckle action-thriller that opened at number one at the U.S. box office.  \n\nFour years after he inadvertently took on the Russian mob, Hutch remains $30 million in debt to the criminal organization and is working it off with an unending string of hits on international thugs. \n\nMuch as he likes the slam-bang action of his “job,” Hutch and his wife Becca (International Emmy nominee Connie Nielsen) find themselves overworked and drifting apart. So, they decide to take their kids (Gage Munroe, Paisley Cadorath) on a short getaway to Wild Bill’s Majestic Midway and Waterpark, the one and only place where Hutch and his brother Harry (Grammy and Emmy nominee RZA) went on a vacation as kids. \n\nWith Hutch’s dad (Emmy winner Christopher Lloyd) in tow, the family arrives in the small tourist town of Plummerville (“Plummerville is Summerville!”), eager for some fun in the sun.\n\nBut when a minor encounter with some town bullies yanks the family into the crosshairs of a corrupt theme-park operator (John Ortiz; Fast and Furious franchise, Bumblebee) and his shady sheriff (Emmy and Golden Globe nominee Colin Hanks), Hutch finds himself the focus of the most unhinged, blood-thirsty crime boss he (or anyone) has ever encountered (Emmy winning and Oscar® nominated screen icon, Sharon Stone).",
+    "certificate": "R",
+    "casting": [
+      "Bob Odenkirk",
+      "Connie Nielsen",
+      "Christopher Lloyd",
+      "Sharon Stone",
+      "Colin Hanks",
+      "RZA",
+      "Gage Munroe",
+      "Paisley Cadorath",
+      "John Ortiz",
+      "Michael Ironside"
+    ],
+    "direction": [
+      "Timo Tjahjanto"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/a8/f3/a8f37ae198831bec2de142a0c812eb5d.jpg",
+      "img/fc/fc/fcfc8a01e0375340713555cafc1fe50a.jpg",
+      "img/1d/ae/1dae26110d457e1c1c811a3d69edf4ee.jpg",
+      "img/8e/02/8e02375f54293b176b43f5af79124a4c.jpg",
+      "img/4a/71/4a71fc733d2e180c9e08d6fa0aafdf23.jpg",
+      "img/89/ee/89ee2be3ea260be8e29bcd917bfe74d0.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/1f16d43a018457299888548862ce2148.jpg"
+    ],
+    "release": "2025-08-15T00:00:00.000Z",
+    "advisory": "for strong bloody violence, and language throughout.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/367934_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/367934_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Universal Pictures"
+    }
+  },
+  {
+    "id": "312827",
+    "title": "Weapons",
+    "runtime": 7680,
+    "genres": "Horror, Thriller",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "https://cms-assets.webediamovies.pro/production/217/9eb3506669d439cc671f9a364032d405.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/65/4f/654f8792ae3d55ff9c1338c86a0f2922.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/af/97/af97d87b9e581207f4b38f5312127b40.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/53/38/5338bee4a866f71b495e0deb52412af0.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/9a/47/9a47d1cf167379e561781a7625fa3a36.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/19/c7/19c7f6aa2943e2474d6a1415f9517310.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/67/5c/675c4d9fffd67fc2f07029c62c52a692.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/a2/91/a291e456c7f6ef2c923841df0683d005.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/3d/43/3d43c766aff611fb31ed283179dd874e.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/7c/42/7c42ca43ef122e80a1edb09f945798e3.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/21/a9/21a922073fdc9c16269cb68828632f48.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "embargoes": [
+      {
+        "bookableAt": "2025-07-23T16:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Zach",
+            "lastName": "Cregger",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Josh",
+            "lastName": "Brolin",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Julia",
+            "lastName": "Garner",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Alden",
+            "lastName": "Ehrenreich",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Toby",
+            "lastName": "Huss",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Benedict",
+            "lastName": "Wong",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Amy",
+            "lastName": "Madigan",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Austin",
+            "lastName": "Abrams",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Cary",
+            "lastName": "Christopher",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "June Diane",
+            "lastName": "Raphael",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Clayton",
+            "lastName": "Farris",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "Weapons",
+      "synopsis": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/361957_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/361957_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/4c/98/4c98a2897d92aefb674795afd5e49abf.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/ea256d3ae5267211d62968f3a7871200.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-08T00:00:00.000Z",
+        "__typename": "Release",
+        "localRatings": [],
+        "distributors": [
+          {
+            "id": "20",
+            "name": "Warner Bros.",
+            "__typename": "Company"
+          }
+        ],
+        "rating": {
+          "advisory": "for strong bloody violence and grisly images, language throughout, some sexual content and drug use,",
+          "__typename": "Rating",
+          "certificate": "R"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": "//cms-assets.webediamovies.pro/production/217/9eb3506669d439cc671f9a364032d405.jpg",
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Weapons",
+    "synopsis": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+    "certificate": "R",
+    "casting": [
+      "Josh Brolin",
+      "Julia Garner",
+      "Alden Ehrenreich",
+      "Toby Huss",
+      "Benedict Wong",
+      "Amy Madigan",
+      "Austin Abrams",
+      "Cary Christopher",
+      "June Diane Raphael",
+      "Clayton Farris"
+    ],
+    "direction": [
+      "Zach Cregger"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/65/4f/654f8792ae3d55ff9c1338c86a0f2922.jpg",
+      "img/af/97/af97d87b9e581207f4b38f5312127b40.jpg",
+      "img/53/38/5338bee4a866f71b495e0deb52412af0.jpg",
+      "img/9a/47/9a47d1cf167379e561781a7625fa3a36.jpg",
+      "img/19/c7/19c7f6aa2943e2474d6a1415f9517310.jpg",
+      "img/67/5c/675c4d9fffd67fc2f07029c62c52a692.jpg",
+      "img/a2/91/a291e456c7f6ef2c923841df0683d005.jpg",
+      "img/3d/43/3d43c766aff611fb31ed283179dd874e.jpg",
+      "img/7c/42/7c42ca43ef122e80a1edb09f945798e3.jpg",
+      "img/21/a9/21a922073fdc9c16269cb68828632f48.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/ea256d3ae5267211d62968f3a7871200.jpg"
+    ],
+    "release": "2025-08-08T00:00:00.000Z",
+    "advisory": "for strong bloody violence and grisly images, language throughout, some sexual content and drug use,",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/361957_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/361957_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Warner Bros."
+    }
+  },
+  {
+    "id": "316125",
+    "title": "Freakier Friday",
+    "runtime": 6660,
+    "genres": "Comedy",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "img/06/6a/066ac30bdb6f7e67a865b7fc596fba30.jpg",
+    "altId": [],
+    "embargoes": [
+      {
+        "bookableAt": "2025-07-11T13:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/c1/f9/c1f9e26381806e70e83faf652376f6e3.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/fa/5c/fa5ce940b0d0d471af988028ac17beaf.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/b5/1f/b51fae408db8fc639889ffeb5eee9634.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/e6/8b/e68bf5b913917fc9ef0265bb12c23525.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/d3/a7/d3a7d930fa72c5062b0f84356456feaf.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/eb/32/eb32138c757883531fde823182e11daf.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/e6/a8/e6a8ac77d2e2c56a3d9c23526d125450.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/89/9e/899ec84c6341afa85270ce8975335ae8.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/42/14/4214013a682502662c00bd52522c4e8c.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/79/13/7913d49633d267ac8b68f758cb959a56.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Nisha",
+            "lastName": "Ganatra",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Jamie Lee",
+            "lastName": "Curtis",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Lindsay",
+            "lastName": "Lohan",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Julia",
+            "lastName": "Butters",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Manny",
+            "lastName": "Jacinto",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sophia",
+            "lastName": "Hammons",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Chad Michael",
+            "lastName": "Murray",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Stephen",
+            "lastName": "Tobolowsky",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Mark",
+            "lastName": "Harmon",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Christina",
+            "lastName": "Vidal",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Haley",
+            "lastName": "Hudson",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "Freakier Friday",
+      "synopsis": "“Freakier Friday,” a sequel to the beloved 2003 film with a multigenerational twist starring Jamie Lee Curtis and Lindsay Lohan, will be released in theaters nationwide August 8, 2025. In the film, Curtis and Lohan reprise their roles as Tess and Anna Coleman. The story picks up years after Tess (Curtis) and Anna (Lohan) endured an identity crisis. Anna now has a daughter of her own and a soon-to-be stepdaughter. As they navigate the myriad challenges that come when two families merge, Tess and Anna discover that lightning might indeed strike twice. “Freakier Friday” is directed by Nisha Ganatra and based on the book “Freaky Friday” by Mary Rodgers. The film, which also stars Julia Bu@ers, Sophia Hammons, Manny Jacinto, Maitreyi Ramakrishnan, Rosalind Chao, Chad Michael Murray, and Mark Harmon, is produced by Kristin Burr, Andrew Gunn, and Jamie Lee Curtis, with Nathan Kelly, Ann Marie Sanderlin, and Lindsay Lohan serving as executive producers.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/359482_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/359482_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/06/6a/066ac30bdb6f7e67a865b7fc596fba30.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/74ca94a9a2af2e9acd38dbc6aad4404b.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-08T00:00:00.000Z",
+        "__typename": "Release",
+        "localRatings": [],
+        "distributors": [
+          {
+            "id": "68",
+            "name": "Walt Disney Pictures",
+            "__typename": "Company"
+          }
+        ],
+        "rating": {
+          "advisory": "for thematic elements, rude humor, language and some suggestive references.",
+          "__typename": "Rating",
+          "certificate": "PG"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Freakier Friday",
+    "synopsis": "“Freakier Friday,” a sequel to the beloved 2003 film with a multigenerational twist starring Jamie Lee Curtis and Lindsay Lohan, will be released in theaters nationwide August 8, 2025. In the film, Curtis and Lohan reprise their roles as Tess and Anna Coleman. The story picks up years after Tess (Curtis) and Anna (Lohan) endured an identity crisis. Anna now has a daughter of her own and a soon-to-be stepdaughter. As they navigate the myriad challenges that come when two families merge, Tess and Anna discover that lightning might indeed strike twice. “Freakier Friday” is directed by Nisha Ganatra and based on the book “Freaky Friday” by Mary Rodgers. The film, which also stars Julia Bu@ers, Sophia Hammons, Manny Jacinto, Maitreyi Ramakrishnan, Rosalind Chao, Chad Michael Murray, and Mark Harmon, is produced by Kristin Burr, Andrew Gunn, and Jamie Lee Curtis, with Nathan Kelly, Ann Marie Sanderlin, and Lindsay Lohan serving as executive producers.",
+    "certificate": "PG",
+    "casting": [
+      "Jamie Lee Curtis",
+      "Lindsay Lohan",
+      "Julia Butters",
+      "Manny Jacinto",
+      "Sophia Hammons",
+      "Chad Michael Murray",
+      "Stephen Tobolowsky",
+      "Mark Harmon",
+      "Christina Vidal",
+      "Haley Hudson"
+    ],
+    "direction": [
+      "Nisha Ganatra"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/c1/f9/c1f9e26381806e70e83faf652376f6e3.jpg",
+      "img/fa/5c/fa5ce940b0d0d471af988028ac17beaf.jpg",
+      "img/b5/1f/b51fae408db8fc639889ffeb5eee9634.jpg",
+      "img/e6/8b/e68bf5b913917fc9ef0265bb12c23525.jpg",
+      "img/d3/a7/d3a7d930fa72c5062b0f84356456feaf.jpg",
+      "img/eb/32/eb32138c757883531fde823182e11daf.jpg",
+      "img/e6/a8/e6a8ac77d2e2c56a3d9c23526d125450.jpg",
+      "img/89/9e/899ec84c6341afa85270ce8975335ae8.jpg",
+      "img/42/14/4214013a682502662c00bd52522c4e8c.jpg",
+      "img/79/13/7913d49633d267ac8b68f758cb959a56.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/74ca94a9a2af2e9acd38dbc6aad4404b.jpg"
+    ],
+    "release": "2025-08-08T00:00:00.000Z",
+    "advisory": "for thematic elements, rude humor, language and some suggestive references.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/359482_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/359482_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Walt Disney Pictures"
+    }
+  },
+  {
+    "id": "326537",
+    "title": "Together",
+    "runtime": 6120,
+    "genres": "Horror",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "img/0e/d0/0ed0c54c81d7af60d6fdde91d79d53eb.jpg",
+    "altId": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/13/9e/139ea7400a1cab75b8a341a25e6ca7a1.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/28/6a/286ac0b7a78ebf3800221e26e74c9cd9.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/09/0a/090a77ced77a4f7368b342baff597761.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/b3/a8/b3a8c7e0a5e2a8b482afdc07d7fc90f8.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/ea/81/ea81ec35eaa9891e17bb64c66d5e7977.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/ba/fb/bafbf4aaa093bc8028f8a9f92135fb0a.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/75/27/75276a70389600b4afe26379a100b5a4.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/15/7e/157e874e241ff815765f618c96be763a.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/bb/3b/bb3befd85cc7d9df05b542dc2ff0a891.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/db/22/db22de40de840251a6185d596fd8158a.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Michael",
+            "lastName": "Shanks (II)",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Dave",
+            "lastName": "Franco",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Alison",
+            "lastName": "Brie",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Damon",
+            "lastName": "Herriman",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Jack",
+            "lastName": "Kenny (II)",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Mia",
+            "lastName": "Morrissey",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Karl",
+            "lastName": "Richmond",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Francesca",
+            "lastName": "Waters",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Aljin",
+            "lastName": "Abella",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sarah",
+            "lastName": "Lang",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Rob",
+            "lastName": "Brown",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "embargoes": [],
+    "locale": {
+      "title": "Together",
+      "synopsis": "Years into their relationship, Tim and Millie (Dave Franco and Alison Brie) find themselves at a crossroads as they move to the country, abandoning all that is familiar in their lives except each other. With tensions already flaring, a nightmarish encounter with a mysterious, unnatural force threatens to corrupt their lives, their love, and their flesh.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/383319_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/383319_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/0e/d0/0ed0c54c81d7af60d6fdde91d79d53eb.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/e5d98429f0bc0e74c21019fae5127107.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-07-30T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "38979",
+            "name": "Neon",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "for violent/disturbing content, sexual content, graphic nudity, language and brief drug content.",
+          "__typename": "Rating",
+          "certificate": "R"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "Together",
+    "synopsis": "Years into their relationship, Tim and Millie (Dave Franco and Alison Brie) find themselves at a crossroads as they move to the country, abandoning all that is familiar in their lives except each other. With tensions already flaring, a nightmarish encounter with a mysterious, unnatural force threatens to corrupt their lives, their love, and their flesh.",
+    "certificate": "R",
+    "casting": [
+      "Dave Franco",
+      "Alison Brie",
+      "Damon Herriman",
+      "Jack Kenny (II)",
+      "Mia Morrissey",
+      "Karl Richmond",
+      "Francesca Waters",
+      "Aljin Abella",
+      "Sarah Lang",
+      "Rob Brown"
+    ],
+    "direction": [
+      "Michael Shanks (II)"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/13/9e/139ea7400a1cab75b8a341a25e6ca7a1.jpg",
+      "img/28/6a/286ac0b7a78ebf3800221e26e74c9cd9.jpg",
+      "img/09/0a/090a77ced77a4f7368b342baff597761.jpg",
+      "img/b3/a8/b3a8c7e0a5e2a8b482afdc07d7fc90f8.jpg",
+      "img/ea/81/ea81ec35eaa9891e17bb64c66d5e7977.jpg",
+      "img/ba/fb/bafbf4aaa093bc8028f8a9f92135fb0a.jpg",
+      "img/75/27/75276a70389600b4afe26379a100b5a4.jpg",
+      "img/15/7e/157e874e241ff815765f618c96be763a.jpg",
+      "img/bb/3b/bb3befd85cc7d9df05b542dc2ff0a891.jpg",
+      "img/db/22/db22de40de840251a6185d596fd8158a.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/e5d98429f0bc0e74c21019fae5127107.jpg"
+    ],
+    "release": "2025-07-30T00:00:00.000Z",
+    "advisory": "for violent/disturbing content, sexual content, graphic nudity, language and brief drug content.",
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/383319_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/383319_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Neon"
+    }
+  },
+  {
+    "id": "1000006432",
+    "title": "The Grateful Dead Movie 2025 Meet-Up",
+    "runtime": 8880,
+    "genres": "Concert, Documentary",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "images": [],
+    "poster": "https://cms-assets.webediamovies.pro/production/217/60353ccfccc2be50ad5227168d0d951c.jpg",
+    "altId": [],
+    "embargoes": [
+      {
+        "bookableAt": "2025-06-26T13:00:00.000Z",
+        "countryCode": "US"
+      }
+    ],
+    "quadImages": [
+      "https://all.web.img.acsta.net/img/61/66/616639aff6d8bae8a6dcebdb5527b663.jpg"
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Leon",
+            "lastName": "Gast",
+            "__typename": "Person"
+          }
+        },
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Jerry",
+            "lastName": "Garcia",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Jerry",
+            "lastName": "Garcia",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Donna",
+            "lastName": "Godchaux",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Keith",
+            "lastName": "Godchaux",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Bob",
+            "lastName": "Weir",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Bill",
+            "lastName": "Kreutzmann",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Mickey",
+            "lastName": "Hart",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Phil",
+            "lastName": "Lesh",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "The Grateful Dead Movie 2025 Meet-Up",
+      "synopsis": "Grateful Dead celebrate their 60th Anniversary with a highly anticipated return to big screens for the annual theatrical event “Meet-Up At The Movies” in select territories worldwide on August 14. \n\nFor a limited time only, this special cinematic event allows fans to come together and celebrate the enduring legacy of the Grateful Dead. This year, Rhino Entertainment and Trafalgar Releasing present the Dead’s eponymous film THE GRATEFUL DEAD MOVIE. This fan- favorite cult classic follows the legendary band on what at the time was believed to be their final performances, a five-night run at San Francisco's Winterland Ballroom in October of 1974, the final night billed as “The Last One.” Featuring stellar live performances, mind-bending animation, interviews with band members and crew, the film has a rare focus on the band’s fans and their deep commitment to the Dead Head lifestyle. Be sure to stay till the end for the exclusive theatrical premier of “China Cat Sunflower > I Know You Rider”, a bonus live performance from the October ‘74 Winterland shows not included in the official film release. \n\nNew this year, in addition to traditional cinema, THE GRATEFUL DEAD MOVIE will grace IMAX® screens in select territories worldwide! This larger than life presentation has been remastered by IMAX for sound and picture for an immersive and powerful experience, making this a must-see event. \n\nDavid Lemieux, Grateful Dead archivist and legacy manager, said after experiencing the film in IMAX - “it was the greatest screening I’ve ever experienced of a film I’ve seen hundreds of times”.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/368560_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/368560_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/b9/d4/b9d45d4c840da5b0f64ddac71fe33d44.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/f735eb50ae8afc666781704d6ebed2b7.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-14T00:00:00.000Z",
+        "__typename": "Release",
+        "rating": {
+          "advisory": null,
+          "__typename": "Rating",
+          "certificate": null
+        },
+        "distributors": [
+          {
+            "id": "41977",
+            "name": "Trafalgar Releasing",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": []
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": "//cms-assets.webediamovies.pro/production/217/60353ccfccc2be50ad5227168d0d951c.jpg",
+      "synopsis": null,
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "The Grateful Dead Movie 2025 Meet-Up",
+    "synopsis": "Grateful Dead celebrate their 60th Anniversary with a highly anticipated return to big screens for the annual theatrical event “Meet-Up At The Movies” in select territories worldwide on August 14. \n\nFor a limited time only, this special cinematic event allows fans to come together and celebrate the enduring legacy of the Grateful Dead. This year, Rhino Entertainment and Trafalgar Releasing present the Dead’s eponymous film THE GRATEFUL DEAD MOVIE. This fan- favorite cult classic follows the legendary band on what at the time was believed to be their final performances, a five-night run at San Francisco's Winterland Ballroom in October of 1974, the final night billed as “The Last One.” Featuring stellar live performances, mind-bending animation, interviews with band members and crew, the film has a rare focus on the band’s fans and their deep commitment to the Dead Head lifestyle. Be sure to stay till the end for the exclusive theatrical premier of “China Cat Sunflower > I Know You Rider”, a bonus live performance from the October ‘74 Winterland shows not included in the official film release. \n\nNew this year, in addition to traditional cinema, THE GRATEFUL DEAD MOVIE will grace IMAX® screens in select territories worldwide! This larger than life presentation has been remastered by IMAX for sound and picture for an immersive and powerful experience, making this a must-see event. \n\nDavid Lemieux, Grateful Dead archivist and legacy manager, said after experiencing the film in IMAX - “it was the greatest screening I’ve ever experienced of a film I’ve seen hundreds of times”.",
+    "certificate": null,
+    "casting": [
+      "Jerry Garcia",
+      "Donna Godchaux",
+      "Keith Godchaux",
+      "Bob Weir",
+      "Bill Kreutzmann",
+      "Mickey Hart",
+      "Phil Lesh"
+    ],
+    "direction": [
+      "Leon Gast",
+      "Jerry Garcia"
+    ],
+    "coDirection": [],
+    "pictures": [],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/f735eb50ae8afc666781704d6ebed2b7.jpg"
+    ],
+    "release": "2025-08-14T00:00:00.000Z",
+    "advisory": null,
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/368560_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/368560_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Trafalgar Releasing"
+    }
+  },
+  {
+    "id": "1000017070",
+    "title": "It’s Never Over, Jeff Buckley",
+    "runtime": 6480,
+    "genres": "Documentary, Music",
+    "__typename": "Movie",
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "poster": "img/bf/db/bfdb674939ec6f5bdaa18879f425be9f.jpg",
+    "altId": [],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Amy",
+            "lastName": "Berg",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Jeff",
+            "lastName": "Buckley",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Ben",
+            "lastName": "Harper",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "embargoes": [],
+    "locale": {
+      "title": "It’s Never Over, Jeff Buckley",
+      "synopsis": "Rising musician Jeff Buckley had only released one album when he died suddenly in 1997. Now, never-before-seen footage, exclusive voice messages, and accounts from those closest to him offer a portrait of the captivating singer.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/mp4/382775_high.mp4",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "hdTrailers": [
+        {
+          "url": "https://m.boxoffice.media/QuickTime/382775_hd.mov",
+          "__typename": "MovieVideo"
+        }
+      ],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/bf/db/bfdb674939ec6f5bdaa18879f425be9f.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": [
+          {
+            "type": "DEFAULT_HERO_IMAGE",
+            "url": "https://cms-assets.webediamovies.pro/production/2/31b597cf8d637aee5137541dea24b3fa.jpg",
+            "__typename": "BOAppImage"
+          }
+        ]
+      }
+    },
+    "releases": [
+      {
+        "releasedAt": "2025-08-08T00:00:00.000Z",
+        "__typename": "Release",
+        "rating": {
+          "advisory": null,
+          "__typename": "Rating",
+          "certificate": null
+        },
+        "distributors": [
+          {
+            "id": "5617",
+            "name": "Magnolia Pictures",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": []
+      }
+    ],
+    "quadImages": [],
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/img/e4/29/e429eba6a5ac8f214c62e81c7d2bdfb6.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/img/97/cb/97cb0ec172fcf352b75c87d7a0c3ac0b.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": null,
+      "synopsis": "IT’S NEVER OVER, JEFF BUCKLEY, directed by Oscar-nominated filmmaker Amy Berg (Deliver Us From Evil, Janis: Little Girl Blue, West of Memphis), covers the life of the rising young star with an otherworldly voice and boundary-pushing artistry, who left the '90s music world reeling when he died suddenly, at age 30, after the release of his critically acclaimed debut album “Grace.” Told through never-before-seen footage from Buckley’s archives and intimate accounts from his mother Mary Guibert, former partners Rebecca Moore and Joan Wasser, Jeff’s former bandmates, including Michael Tighe and Parker Kindred, and luminaries like Ben Harper and Aimee Mann, IT’S NEVER OVER, JEFF BUCKLEY illuminates one of modern music’s most influential and enigmatic figures. Bonus remastered live footage from a rare solo performance (26 minutes), only to be shown in theaters, will screen immediately following the film.",
+      "__typename": "MovieLocalizedOverride",
+      "images": []
+    },
+    "originalTitle": "It’s Never Over, Jeff Buckley",
+    "synopsis": "IT’S NEVER OVER, JEFF BUCKLEY, directed by Oscar-nominated filmmaker Amy Berg (Deliver Us From Evil, Janis: Little Girl Blue, West of Memphis), covers the life of the rising young star with an otherworldly voice and boundary-pushing artistry, who left the '90s music world reeling when he died suddenly, at age 30, after the release of his critically acclaimed debut album “Grace.” Told through never-before-seen footage from Buckley’s archives and intimate accounts from his mother Mary Guibert, former partners Rebecca Moore and Joan Wasser, Jeff’s former bandmates, including Michael Tighe and Parker Kindred, and luminaries like Ben Harper and Aimee Mann, IT’S NEVER OVER, JEFF BUCKLEY illuminates one of modern music’s most influential and enigmatic figures. Bonus remastered live footage from a rare solo performance (26 minutes), only to be shown in theaters, will screen immediately following the film.",
+    "certificate": null,
+    "casting": [
+      "Jeff Buckley",
+      "Ben Harper"
+    ],
+    "direction": [
+      "Amy Berg"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "img/e4/29/e429eba6a5ac8f214c62e81c7d2bdfb6.jpg",
+      "img/97/cb/97cb0ec172fcf352b75c87d7a0c3ac0b.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/2/31b597cf8d637aee5137541dea24b3fa.jpg"
+    ],
+    "release": "2025-08-08T00:00:00.000Z",
+    "advisory": null,
+    "trailer": {
+      "SD": "https://m.boxoffice.media/mp4/382775_high.mp4",
+      "HD": "https://m.boxoffice.media/QuickTime/382775_hd.mov"
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Magnolia Pictures"
+    }
+  }
+]

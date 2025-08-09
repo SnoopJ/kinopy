@@ -1,0 +1,3807 @@
+{
+  "X019B": {
+    "schedule": {
+      "47395": {
+        "2025-08-12": [
+          {
+            "id": "47395-2025-08-12 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/71b1c7b9-c167-4dbd-882a-094b88829740"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.47395&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=19:00&code=Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "225885": {
+        "2025-08-10": [
+          {
+            "id": "225885-2025-08-10 12:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T12:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/96db9117-94d3-47e9-93d5-b65a02178394"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=12:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-10 14:25:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T14:25:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/10ad125f-d7b5-4c99-98ae-1addec366f8d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=14:25&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-10 16:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T16:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/12b3c80a-f986-4f64-bf50-8b88eee6d781"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=16:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-10 19:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T19:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7958022a-56c5-42b0-b3d2-53446275593b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=19:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "225885-2025-08-11 16:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7385181d-4a83-4420-98e7-a246f972802c"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-11 19:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T19:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/5ae33a63-711f-4165-a9cf-f655aac707bc"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=19:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "225885-2025-08-12 16:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/d4b7440d-6529-41a4-bf5f-fe3238c4267d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-12 19:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T19:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9654fdd6-69c5-441f-a53b-4d0854847bee"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=19:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "225885-2025-08-13 12:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T12:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/2cdc78db-9c24-4aee-87db-95e652b4762c"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=12:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-13 14:25:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T14:25:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/ad9b9aa9-5848-4a34-bce4-a8d786c8ef7f"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=14:25&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-13 16:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T16:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/eebaa695-e89c-498b-b3cd-115978410d46"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=16:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-13 19:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T19:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e9569745-ae60-4b08-b426-c118d7c98603"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=19:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-14": [
+          {
+            "id": "225885-2025-08-14 16:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/6e96c869-a70d-41ef-b1f5-3e9894ad9750"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "225885-2025-08-14 19:15:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T19:15:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/2c61b690-a2b3-4248-af5d-f1e045dc8ac9"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.225885&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=19:15&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "226116": {
+        "2025-08-10": [
+          {
+            "id": "226116-2025-08-10 13:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T13:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/a78b2a43-6ede-4e2d-b3f6-7c5c597ff844"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=13:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-10 16:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T16:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/0f5deaca-b1e5-4b0e-b3f0-7b8f541d5598"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=16:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-10 18:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/48f551e2-235c-4808-8407-9ed78c98e550"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "226116-2025-08-11 16:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/3663c73e-b7a9-4cab-b44f-eea94a581def"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-11 18:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/efefeb0e-3acb-4ddc-ad6d-9b30a1041b99"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "226116-2025-08-12 16:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7cdf5333-53c8-47ac-8114-4f2f099306a8"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-12 18:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T18:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/16810b1f-315b-4a08-af9c-6d41e08064b7"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=18:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "226116-2025-08-13 13:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T13:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/88c3affb-98dc-4238-b0e0-46b69fc73764"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=13:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-13 16:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T16:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e8b53152-7739-484d-b19d-b13e7861dc08"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=16:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-13 18:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/30944165-dcc7-47c8-9cbc-5b8b4b13250b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-14": [
+          {
+            "id": "226116-2025-08-14 16:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/38053bb7-7340-427a-af84-7bb66e15e93e"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "226116-2025-08-14 18:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T18:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/ea2a9131-a585-41f8-b934-fc80215ff14f"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.226116&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=18:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "229669": {
+        "2025-08-10": [
+          {
+            "id": "229669-2025-08-10 13:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T13:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/67b6cd51-26d7-4d7d-a09c-55fa8ab7f8d0"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=13:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-10 16:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T16:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/0ca8b6bf-f046-4577-9dd3-6d0b6e1b57da"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=16:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-10 18:45:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:45:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/b35b6fd9-f47b-48d1-b125-4bbf6996af5b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:45&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "229669-2025-08-11 16:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/597ecfec-6ae6-4169-92f5-d57d78ef85a1"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-11 18:45:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:45:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/f5b2ac66-dca0-4244-85a8-1a80a5e56be4"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:45&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "229669-2025-08-12 16:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e0192e70-15d1-4d38-b422-96f7390f69fc"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-12 18:45:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T18:45:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7cfc8f11-d03e-47d4-a836-1bb587de48d1"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=18:45&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "229669-2025-08-13 13:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T13:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/a152c7f4-5fa6-49f3-b1a1-01ef56d12173"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=13:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-13 16:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T16:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/0ebca842-3624-4848-af02-a663ce58207c"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=16:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-13 18:45:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:45:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/3b14ac44-cea5-45e7-8a33-575298b7a9ff"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:45&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-14": [
+          {
+            "id": "229669-2025-08-14 16:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/549fa1db-9ee7-485c-95d8-4cca1a3e8617"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "229669-2025-08-14 18:45:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T18:45:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/c5d35c50-59f3-49cb-ab81-9ef626b349fb"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.229669&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=18:45&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "230803": {
+        "2025-08-10": [
+          {
+            "id": "230803-2025-08-10 11:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T11:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/8baa209d-0707-4727-b3f1-e0f81be41fbb"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.230803&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=11:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "230803-2025-08-13 11:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T11:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/535bd013-d8c3-425e-b09a-3eda637c925b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.230803&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=11:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "293844": {
+        "2025-08-14": [
+          {
+            "id": "293844-2025-08-14 14:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T14:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/03fc0b09-ff8d-4868-b687-7a3fc4e792ba"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.293844&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=14:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "293844-2025-08-14 16:40:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:40:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/0810bffd-4a7b-47be-9167-c0babdc925df"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.293844&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:40&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "293844-2025-08-14 19:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T19:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/431e863d-6ffc-4c57-bda5-f235ee84d885"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.293844&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=19:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "312827": {
+        "2025-08-10": [
+          {
+            "id": "312827-2025-08-10 13:15:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T13:15:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/8a2c4ae7-5f6f-41a5-9034-0daf74564f9e"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=13:15&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-10 15:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T15:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/93ce3d0d-b66e-47c8-a760-e25f359c5f8d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=15:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-10 16:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T16:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e653bb83-79c2-487c-83ff-f28bbf371957"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=16:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-10 18:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/2408e35f-f0d3-435d-b1d4-a955552daec4"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-10 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/687e1d83-6c50-4189-b4b3-2915c07b228e"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=19:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "312827-2025-08-11 15:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T15:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/20237c38-4ed2-4683-b364-66e4eff1214a"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=15:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-11 16:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/917a2396-cf21-4a5d-a6aa-a0658ae8f539"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-11 18:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/c61c4b64-999f-4f8a-96a7-ed89263a99d9"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-11 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9beacd50-7562-4727-93d6-ebcac16c8d53"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=19:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "312827-2025-08-12 15:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T15:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e4712836-6d83-4281-9eac-968d2347c0a7"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=15:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-12 16:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e82e1f29-3cc2-4140-a4c4-b3620a794bb7"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-12 18:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T18:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4af9fb10-a9d1-499e-8664-94f31a5cc7ee"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=18:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-12 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4b15d0c7-8d21-47d5-b38c-2d6136c4c421"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=19:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "312827-2025-08-13 12:15:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T12:15:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/69cfb20a-5ce7-4249-9ef4-d2f82f1c2224"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=12:15&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-13 13:15:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T13:15:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4cfd9358-4352-4f53-b151-8d444b4e3b39"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=13:15&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-13 15:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T15:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/fe60999b-f1c4-4620-9f06-14b7a02f7ac9"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=15:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-13 16:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T16:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/c96d31de-007a-4a3e-b98e-28bbdc15bce4"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=16:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-13 18:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/2dd5f6eb-8579-44d9-b5fd-96ee92cd9d4a"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-13 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4451d48d-6946-4319-9929-721aea7c534c"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=19:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-14": [
+          {
+            "id": "312827-2025-08-14 16:05:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:05:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/8471a6d5-4c8a-4853-bb18-5640f1b429c7"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:05&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "312827-2025-08-14 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/79ef9600-55c2-48cf-ae6f-2c841504a9bd"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.312827&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=19:00&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "316125": {
+        "2025-08-10": [
+          {
+            "id": "316125-2025-08-10 10:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T10:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4640d97f-8dfa-45c6-978a-799314a7616a"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=10:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 12:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T12:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/02c15be7-920e-4b04-9a37-32cc71589b1d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=12:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 13:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T13:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/64a91320-dc22-4ff7-bd56-76fe3cd21303"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=13:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 15:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T15:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/6e910aa6-7942-43ac-8303-63d99e94f84b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=15:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 16:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T16:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/59405dbb-1d84-420f-9146-be7fe75408bf"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=16:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 18:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/55abf60f-8e58-4434-806f-ae6c854ffc8d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-10 19:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T19:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/abc92790-ee94-4b60-aa73-1e334c0f301b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=19:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "316125-2025-08-11 15:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T15:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/c2b740c2-bbe3-4001-ab8e-c2940708b913"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=15:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-11 16:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/6bb46723-2a8e-44da-ac37-9f8d0cee3e93"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-11 18:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/046d77cd-ab6f-46d3-b0b9-5db3390edc10"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-11 19:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T19:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9b1c5217-e0ca-47b8-b6ca-881c2d7c9e19"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=19:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "316125-2025-08-12 15:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T15:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/e297c3e0-4fa7-4692-b961-5fcc317e7acb"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=15:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-12 16:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/338f9e5d-0a04-450f-a568-18863d509366"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-12 19:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T19:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/cc7f2c39-13f8-40bc-b52e-d5721c9d8185"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=19:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "316125-2025-08-13 10:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T10:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/04cd1137-ed3d-4673-850f-efd5d1637bb4"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=10:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 12:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T12:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/b048984b-b8a7-4727-bc52-8a78b439a659"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=12:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 13:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T13:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/09ae3567-d701-4e57-a07b-2f655279d2ac"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=13:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 15:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T15:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9f6805c4-a0b8-43c7-887c-4caec5960b3f"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=15:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 16:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T16:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/daa085bb-5e33-4a6d-b64f-34702cd38e55"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=16:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 18:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/edb511e9-b96c-4f0d-b30b-28bc7b19ab10"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-13 19:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T19:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/390e1903-42ad-461c-b580-fa34175072a5"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=19:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-14": [
+          {
+            "id": "316125-2025-08-14 16:35:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T16:35:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9f05ee89-bb92-4671-b2f6-1c6cf149e2fc"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=16:35&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "316125-2025-08-14 19:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T19:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/158dc571-2190-4c4c-a418-d89c1835094c"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.316125&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=19:10&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "326537": {
+        "2025-08-10": [
+          {
+            "id": "326537-2025-08-10 13:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T13:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/ab9ed7de-9667-4c0d-856e-131163982773"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=13:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-10 15:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T15:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9a2969a5-dcf9-453f-a814-cfa6fafc027b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=15:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-10 18:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4c0bb4ce-16dc-463f-98ff-a0f5a4424317"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "326537-2025-08-11 16:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T16:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7446c158-f3e8-47c9-a676-bd4882fb12a9"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=16:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-11 18:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/482620d4-847e-4594-a36c-676c181a33bb"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "326537-2025-08-12 16:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T16:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/dc4f0689-ba38-424a-9e67-c8278b6230b6"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=16:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-12 18:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T18:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/313121f1-a2f3-45c4-88c5-b67fff6cfd04"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=18:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "326537-2025-08-13 13:20:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T13:20:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/a21eebd1-93f2-4627-927e-cd8d4658eaaf"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=13:20&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-13 15:55:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T15:55:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/4f855368-60df-4ade-9e96-870634a8bb6b"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=15:55&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "326537-2025-08-13 18:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/7d96736e-98f5-46f5-aeb2-cf769080c390"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.326537&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "1000006432": {
+        "2025-08-14": [
+          {
+            "id": "1000006432-2025-08-14 19:00:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-14T19:00:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/75c1b68d-0ee6-41a2-af67-146502901446"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000006432&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired&perfd=20250814&perft=19:00&code=Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-16": [
+          {
+            "id": "1000006432-2025-08-16 13:10:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-16T13:10:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/31a83724-7b7e-4cfb-a937-3ac2a89e477d"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000006432&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.HearingImpaired&perfd=20250816&perft=13:10&code=Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      },
+      "1000017070": {
+        "2025-08-10": [
+          {
+            "id": "1000017070-2025-08-10 12:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T12:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/b6bea01e-e98a-4642-a3fb-bc18310969b2"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=12:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-10 15:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T15:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/87e16cdb-a049-4fc7-a337-d68e6df60c73"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=15:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-10 18:40:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-10T18:40:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/fa6a598d-f718-4dfd-9493-304318429276"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250810&perft=18:40&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-11": [
+          {
+            "id": "1000017070-2025-08-11 15:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T15:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/a1d5ba12-5b83-4124-bf30-a60958e909e3"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=15:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-11 18:40:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-11T18:40:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/cfaa962d-6249-413f-a5ef-8c59ce4a2844"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250811&perft=18:40&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-12": [
+          {
+            "id": "1000017070-2025-08-12 15:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T15:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/78e6237f-6b83-4fed-947a-07d1fe260c1e"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=15:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-12 18:40:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-12T18:40:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/3746a4fb-6e79-4349-88d5-2e9468a089b2"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250812&perft=18:40&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ],
+        "2025-08-13": [
+          {
+            "id": "1000017070-2025-08-13 12:30:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T12:30:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/def5c2f3-f1bc-4165-8520-c385ab5de013"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=12:30&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-13 15:50:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T15:50:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/fa96036e-5f11-4080-a71b-428564b70f73"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=15:50&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          },
+          {
+            "id": "1000017070-2025-08-13 18:40:00-Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired",
+            "startsAt": "2025-08-13T18:40:00",
+            "tags": [
+              "Auditorium.Comfort.ReservedSeating",
+              "Format.Projection.Digital",
+              "Showtime.Accessibility.ClosedCaption",
+              "Showtime.Accessibility.HearingImpaired"
+            ],
+            "isExpired": false,
+            "data": {
+              "ticketing": [
+                {
+                  "urls": [
+                    "https://booking.landmarktheatres.com/startticketing/2a38ae86-dd3b-4d8f-9796-7ee0f443ec6e/9acf2e0d-f903-4964-a0e4-0e0e49ac0c6e"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "default"
+                },
+                {
+                  "urls": [
+                    "https://relay.mvtx.us/ticketing/dbz?code_theater=X019B&gid_entity=movie.movie._.1000017070&tags=Auditorium.Comfort.ReservedSeating,Format.Projection.Digital,Showtime.Accessibility.ClosedCaption,Showtime.Accessibility.HearingImpaired&perfd=20250813&perft=18:40&code=Closed Caption; Hard Of Hearing or Deaf; Reserved seating;"
+                  ],
+                  "type": "DESKTOP",
+                  "provider": "relay"
+                }
+              ]
+            },
+            "occupancy": {
+              "rate": null
+            },
+            "nextShowtimes": []
+          }
+        ]
+      }
+    },
+    "moviesTags": {
+      "47395": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "225885": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "226116": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "229669": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "230803": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "293844": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "312827": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "316125": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "326537": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "1000006432": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.HearingImpaired"
+      ],
+      "1000017070": [
+        "Auditorium.Comfort.ReservedSeating",
+        "Format.Projection.Digital",
+        "Showtime.Accessibility.ClosedCaption",
+        "Showtime.Accessibility.HearingImpaired"
+      ]
+    },
+    "showtimesDates": [
+      "2025-08-10",
+      "2025-08-11",
+      "2025-08-12",
+      "2025-08-13",
+      "2025-08-14",
+      "2025-08-16"
+    ]
+  }
+}
