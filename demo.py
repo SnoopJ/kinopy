@@ -46,6 +46,7 @@ if __name__ == "__main__":
         <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>Movie showings in selected theatres in the Boston metro area</title>
             <link type="text/css" rel="stylesheet" href="cal.css" />
             <script src="cal.js"></script>
         </head>
