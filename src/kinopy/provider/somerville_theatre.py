@@ -2,9 +2,8 @@ import json
 from collections import defaultdict
 from datetime import date, datetime
 
-import requests
-
 from ..datamodel import CACHE_ROOT, Showing
+from ..util import web
 
 
 CACHE = CACHE_ROOT.joinpath("SomervilleTheatre")
@@ -54,7 +53,7 @@ class SomervilleTheatreProvider:
             result = json.loads(fn.read_text())
         else:
             headers = {"VeeziAccessToken": self._token}
-            response = requests.get(cls.JSON_URL, headers=headers)
+            response = web.get(self.JSON_URL, headers=headers)
             response.raise_for_status()
 
             result = response.json()

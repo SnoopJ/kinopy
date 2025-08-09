@@ -3,9 +3,9 @@ from datetime import date
 from pathlib import Path
 
 import lxml.html
-import requests
 
 from ..datamodel import CACHE_ROOT, Showing
+from ..util import web as requests
 
 
 CACHE = CACHE_ROOT.joinpath("CoolidgeCorner")
@@ -51,7 +51,7 @@ class CoolidgeCornerProvider:
                 src = fn.read_text()
             else:
                 url = cls.QUERY_PATTERN.format(isoformat=d.isoformat())
-                response = requests.get(url)
+                response = web.get(url)
                 response.raise_for_status()
                 src = response.content
 

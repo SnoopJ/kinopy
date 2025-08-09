@@ -5,10 +5,9 @@ from collections import defaultdict
 from datetime import date, datetime
 from typing import Any
 
-import requests
-
 from ..datamodel import CACHE_ROOT, Showing
 from ..util import StrEnum
+from ..util import web as requests
 
 
 CACHE = CACHE_ROOT.joinpath("AlamoDrafthouse")
@@ -92,7 +91,7 @@ class AlamoProvider:
         if fn.exists():
             result = json.loads(fn.read_text())
         else:
-            response = requests.get(cls.JSON_URL)
+            response = web.get(cls.JSON_URL)
             response.raise_for_status()
 
             result = response.json()
