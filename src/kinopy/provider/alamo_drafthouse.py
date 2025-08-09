@@ -50,15 +50,12 @@ class AlamoProvider:
 
                 title = pres["show"]["title"]
                 url = cls.SESSION_URL_PATT.format(slug=slug, cinemaId=cinemaId, sessionId=sessionId)
-                # TODO: idk what I'm doing with showtimes so I guess let's coerce to str here and deal with it later
-                showtimes = [str(datetime.fromisoformat(s["showTimeUtc"])) for s in sessions]
                 excerpt = None
 
                 show = Showing(
                     date=dt,
                     title=title,
                     url=url,
-                    showtimes=showtimes,
                     excerpt=excerpt,
                 )
 

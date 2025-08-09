@@ -22,7 +22,6 @@ class CoolidgeCornerProvider:
         url = f"https://coolidge.org/{rel_url}"
         title = link.text_content()
 
-        showtimes = [st.text_content() for st in film_card.xpath(".//span[@class='showtime-ticket__time']")]
         [excerpt_tag] = film_card.xpath(".//div[@class='film-card__excerpt']")
         excerpt = excerpt_tag.text_content()
 
@@ -30,7 +29,6 @@ class CoolidgeCornerProvider:
             date=date,
             title=title,
             url=url,
-            showtimes=showtimes,
             excerpt=excerpt,
         )
 
