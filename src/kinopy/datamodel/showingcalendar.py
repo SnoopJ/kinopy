@@ -7,9 +7,6 @@ from .types_ import Day, Cinema
 from .showing import Showing
 
 
-# TODO: need some way to render just one week at a time, since vertical
-# space is at a serious premium
-
 class ShowingCalendar(HTMLCalendar):
     """
     For generating calendars of showings
@@ -38,8 +35,6 @@ class ShowingCalendar(HTMLCalendar):
             for cinema, shows in self._shows.items():
                 shows_txt = "\n".join(f'<li><a href="{show.url}"><i>{show.title}</i></a></li>' for show in shows.get(day, []))
 
-                # TODO: eventually I would like to have several <ul>, inside of <div> I guess,
-                # segregating showings by the cinema (provider)
                 showing_sets.append(
                     dedent(
                         f'''
