@@ -31,19 +31,18 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
 
     today = date.today()
     nextweek = today + timedelta(days=7)
+    dates = [today+timedelta(days=n) for n in range(7)]
 
     # ALAMO
     alamo_src = AlamoProvider.showings_json()
-    alamo_presentations = AlamoProvider.from_json(alamo_src)
+    alamo_presentations = AlamoProvider().from_json(alamo_src)
     alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
     # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
     # TODO: handle month boundary
     results["Alamo Drafthouse"] = alamo_filtered
 
     # COOLIDGE
-    # Implement the rest of the owl
-    dates = [today+timedelta(days=n) for n in range(7)]
-    coolidge_presentations = CoolidgeCornerProvider.showings_for_dates(dates=dates)
+    coolidge_presentations = CoolidgeCornerProvider().showings_for_dates(dates=dates)
     results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
 
     # SOMERVILLE
