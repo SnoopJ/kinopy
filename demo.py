@@ -12,8 +12,9 @@ from kinopy.provider import AlamoProvider, CoolidgeCornerProvider
 
 HERE = Path(__file__).parent
 
-if __name__ == "__main__":
-    shows: dict[Cinema, dict[Day, Showing]] = {}
+
+def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
+    results = {}
 
     today = date.today()
     nextweek = today + timedelta(days=7)
@@ -24,13 +25,19 @@ if __name__ == "__main__":
     alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
     # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
     # TODO: handle month boundary
-    shows["Alamo Drafthouse"] = alamo_filtered
+    results["Alamo Drafthouse"] = alamo_filtered
 
     # COOLIDGE
     # Implement the rest of the owl
     dates = [today+timedelta(days=n) for n in range(7)]
     coolidge_presentations = CoolidgeCornerProvider.showings_for_dates(dates=dates)
-    shows["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+    results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+
+    return results
+
+
+def main():
+    shows = showings_by_cinema()
 
     # Showtime!
     cal = ShowingCalendar(shows)
@@ -65,3 +72,7 @@ if __name__ == "__main__":
     )
 
     Path("cal.html").write_text(html)
+
+
+if __name__ == "__main__":
+    main()
