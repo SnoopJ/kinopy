@@ -2,6 +2,8 @@
 .direnv
 .python-version
 
+kinopy.toml
+
 build
 kinopy_cache
 venv

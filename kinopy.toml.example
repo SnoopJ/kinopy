@@ -1,0 +1,4 @@
+[kinopy.provider.somerville_theatre]
+# Somerville Theatre uses a B2B service called Veezi to provide JSON data of their showings. An authorization token is
+# required to access the Veezi API, that can be populated here.
+# token = "..."

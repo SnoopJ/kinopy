@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import itertools
+import sys
 from datetime import date, timedelta
 from pathlib import Path
 from textwrap import dedent
@@ -9,8 +10,20 @@ from textwrap import dedent
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
 from kinopy.provider import AlamoProvider, CoolidgeCornerProvider
 
+if sys.version_info < (3, 11):
+    import tomli as tomllib
+else:
+    import tomllib
+
 
 HERE = Path(__file__).parent
+CONFIG_FILE = HERE.joinpath("kinopy.toml")
+
+if CONFIG_FILE.exists():
+    with open(CONFIG_FILE, "rb") as f:
+        CONFIG = tomllib.load(f)
+else:
+    CONFIG = {}
 
 
 def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
