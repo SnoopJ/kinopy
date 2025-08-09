@@ -35,6 +35,9 @@ class ShowingCalendar(HTMLCalendar):
             for cinema, shows in self._shows.items():
                 shows_txt = "\n".join(f'<li><a href="{show.url}"><i>{show.title}</i></a></li>' for show in shows.get(day, []))
 
+                if not shows_txt:
+                    continue
+
                 showing_sets.append(
                     dedent(
                         f'''
