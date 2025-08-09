@@ -18,9 +18,9 @@ class SomervilleTheatreProvider:
         self._token = veezi_token
 
     @classmethod
-    def showings_by_date(cls) -> dict[date, list[Showing]]:
+    def showings_by_date(self) -> dict[date, list[Showing]]:
         result = defaultdict(list)
-        data = cls.showings_json()
+        data = self.showings_json()
 
         seen = set()
 
@@ -48,8 +48,7 @@ class SomervilleTheatreProvider:
         return result
 
 
-    @classmethod
-    def showings_json(cls) -> dict:
+    def showings_json(self) -> dict:
         fn = CACHE.joinpath(f"{date.today().isoformat()}.json")
         if fn.exists():
             result = json.loads(fn.read_text())
