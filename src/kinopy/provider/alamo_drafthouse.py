@@ -7,7 +7,7 @@ from typing import Any
 
 from ..datamodel import CACHE_ROOT, Showing
 from ..util import StrEnum
-from ..util import web as requests
+from ..util import web
 
 
 CACHE = CACHE_ROOT.joinpath("AlamoDrafthouse")

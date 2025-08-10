@@ -1,11 +1,10 @@
 import time
 from datetime import date
-from pathlib import Path
 
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web as requests
+from ..util import web
 
 
 CACHE = CACHE_ROOT.joinpath("CoolidgeCorner")
