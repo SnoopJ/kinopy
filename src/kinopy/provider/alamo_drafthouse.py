@@ -14,11 +14,6 @@ CACHE = CACHE_ROOT.joinpath("AlamoDrafthouse")
 CACHE.mkdir(exist_ok=True, parents=True)
 
 
-class ShowingStatus(StrEnum):
-    ONSALE = "ONSALE"
-    PAST = "PAST"
-
-
 BOSTON = 2901
 
 class AlamoProvider:
@@ -71,10 +66,6 @@ class AlamoProvider:
 
         for ses in data["data"]["sessions"]:
             slug = ses["presentationSlug"]
-
-            if ses["status"] != ShowingStatus.ONSALE:
-                print(f"Not on sale, skipping: {slug!r}")
-                continue
 
             pres = presentation_data[slug]
 
