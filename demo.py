@@ -8,7 +8,13 @@ from pathlib import Path
 from textwrap import dedent
 
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
-from kinopy.provider import AlamoProvider, CoolidgeCornerProvider, LandmarkKendallSquareProvider, SomervilleTheatreProvider
+from kinopy.provider import (
+    AlamoProvider,
+    BrattleProvider,
+    CoolidgeCornerProvider,
+    LandmarkKendallSquareProvider,
+    SomervilleTheatreProvider,
+)
 
 if sys.version_info < (3, 11):
     import tomli as tomllib
@@ -55,7 +61,11 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
 
     # LANDMARK KENDALL
     landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
-    results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates and shows}
+    results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates}
+
+    # THE BRATTLE
+    brattle_presentations = BrattleProvider().showings_by_date()
+    results["The Brattle"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in brattle_presentations.items() if dt in dates}
 
     return results
 
