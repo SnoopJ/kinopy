@@ -39,18 +39,6 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     nextweek = today + timedelta(days=7)
     dates = [today+timedelta(days=n) for n in range(7)]
 
-    # ALAMO
-    alamo_src = AlamoProvider.showings_json()
-    alamo_presentations = AlamoProvider().from_json(alamo_src)
-    alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
-    # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
-    # TODO: handle month boundary
-    results["Alamo Drafthouse"] = alamo_filtered
-
-    # COOLIDGE
-    coolidge_presentations = CoolidgeCornerProvider().showings_for_dates(dates=dates)
-    results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
-
     # SOMERVILLE
     token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
     if token:
@@ -59,13 +47,25 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     else:
         print("No access token for Somerville Theatre, skipping")
 
-    # LANDMARK KENDALL
-    landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
-    results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates}
-
     # THE BRATTLE
     brattle_presentations = BrattleProvider().showings_by_date()
     results["The Brattle"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in brattle_presentations.items() if dt in dates}
+
+    # COOLIDGE
+    coolidge_presentations = CoolidgeCornerProvider().showings_for_dates(dates=dates)
+    results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+
+    # ALAMO
+    alamo_src = AlamoProvider.showings_json()
+    alamo_presentations = AlamoProvider().from_json(alamo_src)
+    alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
+    # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
+    # TODO: handle month boundary
+    results["Alamo Drafthouse"] = alamo_filtered
+
+    # LANDMARK KENDALL
+    landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
+    results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates}
 
     return results
 
