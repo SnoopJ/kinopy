@@ -13,6 +13,7 @@ from kinopy.provider import (
     BrattleProvider,
     CoolidgeCornerProvider,
     LandmarkKendallSquareProvider,
+    RegentTheatreProvider,
     SomervilleTheatreProvider,
 )
 
@@ -50,6 +51,10 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     # THE BRATTLE
     brattle_presentations = BrattleProvider().showings_by_date()
     results["The Brattle"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in brattle_presentations.items() if dt in dates}
+
+    # REGENT
+    regent_presentations = RegentTheatreProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
+    results["Regent Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in regent_presentations.items()}
 
     # COOLIDGE
     coolidge_presentations = CoolidgeCornerProvider().showings_for_dates(dates=dates)
