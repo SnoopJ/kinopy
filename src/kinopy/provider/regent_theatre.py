@@ -3,6 +3,8 @@ from collections import defaultdict
 from datetime import date
 from urllib.parse import unquote
 
+import lxml.html
+
 from ..datamodel import CACHE_ROOT, Showing
 from ..util import web
 
@@ -133,7 +135,7 @@ class RegentTheatreProvider:
         shows = cls.showings_json(from_date=from_date, to_date=to_date)
         results = defaultdict(list)
 
-        for shw in shows:
+        for event_ID, shw in shows.items():
             dt = date.fromtimestamp(shw["event_start_unix"])
             if not (from_date <= dt <= to_date):
                 # NOTE:the API seems to serve an entire month at a time with the above query parameters, so we just filter
@@ -160,9 +162,27 @@ class RegentTheatreProvider:
         return results
 
     @classmethod
-    def showings_json(cls, from_date: date, to_date: date) -> dict:
+    def showings_json(cls, from_date: date, to_date: date) -> dict[int, dict]:
         content = cls.schedule_json(from_date=from_date, to_date=to_date)
-        result = content["cals"]["evcal_calendar_685"]["json"]
+        result = {shw["event_id"]: shw for shw in content["cals"]["evcal_calendar_685"]["json"]}
+
+        # NOTE: [insert heavy sigh here]
+        # So, the Regent has plenty of events that aren't movies, and I don't want to show them on this calendar, so
+        # it's necessary to get the event types. HOWEVER, this data is not available in the JSON data extracted above
+        # (as far as I can tell), but ONLY encoded in the resulting HTML that is also included in the response. So, we
+        # have to go spelunking in order to retrieve some of this information
+        doc = lxml.html.fromstring(content["cals"]["evcal_calendar_685"]["html"])
+
+        for event_root in doc.xpath("//div[@data-time]"):
+            start, stop = (date.fromtimestamp(int(val)) for val in event_root.attrib["data-time"].split('-'))
+            event_id = int(event_root.attrib["data-event_id"])
+            [title] = [node.text_content() for node in event_root.xpath(".//span[contains(@class, 'evoet_title')]")]
+            tags = [node.text_content().strip(",").lower() for node in event_root.xpath(".//em[@data-tagid]")]
+            if "movie" not in tags:
+                # NOTE:Some events will appear multiple times in the resulting HTML so we have to look before we delete
+                if event_id in result:
+                    print(f"Not a movie, removing: {title!r} ({start.isoformat()})")
+                    result.pop(event_id)
 
         return result
 
