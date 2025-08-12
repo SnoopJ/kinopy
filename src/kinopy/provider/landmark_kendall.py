@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from functools import cache
 from typing import Iterable, Optional
 
@@ -30,7 +30,8 @@ class LandmarkKendallSquareProvider:
                 }
             ],
             "from": from_date.isoformat(),
-            "to": to_date.isoformat(),
+            # NOTE: we add a day so that we get showings that occur *on* the cutoff date, otherwise they are omitted
+            "to": (to_date + timedelta(days=1)).isoformat(),
             "nin": [],
             "sin": [],
         }
