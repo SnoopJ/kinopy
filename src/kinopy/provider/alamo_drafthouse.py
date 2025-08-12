@@ -75,6 +75,9 @@ class AlamoDrafthouseProvider:
 
         for ses in data["data"]["sessions"]:
             slug = ses["presentationSlug"]
+            if slug == "private-event":
+                print("Private event detected in Alamo Drafthouse API, discarding")
+                continue
 
             pres = presentation_data[slug]
 
