@@ -56,12 +56,13 @@ class SomervilleTheatreProvider:
         for pres in data:
             # NOTE: crude approach, but effective
             film_id = pres["FilmId"]
-            if film_id in seen:
-                continue
-            seen.add(film_id)
-
-            dt = datetime.fromisoformat(pres["FeatureStartTime"]).date()
             title = pres["Title"]
+            dt = datetime.fromisoformat(pres["FeatureStartTime"]).date()
+            if (dt, film_id) in seen:
+                print(f"Seen title already, skipping: {title!r}")
+                continue
+
+            seen.add((dt, film_id))
             if film_page_url := self.film_page_url(title):
                 url = film_page_url
             else:
