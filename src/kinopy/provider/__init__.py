@@ -1,4 +1,4 @@
-from .alamo_drafthouse import AlamoProvider
+from .alamo_drafthouse import AlamoDrafthouseProvider
 from .apple_cinemas import AppleCinemasProvider
 from .brattle import BrattleProvider
 from .coolidge_corner import CoolidgeCornerProvider

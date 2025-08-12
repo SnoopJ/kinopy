@@ -9,7 +9,7 @@ from textwrap import dedent
 
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
 from kinopy.provider import (
-    AlamoProvider,
+    AlamoDrafthouseProvider,
     AppleCinemasProvider,
     BrattleProvider,
     CoolidgeCornerProvider,
@@ -67,7 +67,7 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     # ALAMO
     # TODO: handle month boundary
     print("=== Getting showings for: Alamo Drafthouse")
-    alamo_presentations = AlamoProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    alamo_presentations = AlamoDrafthouseProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Alamo Drafthouse"] = alamo_presentations
 
     # LANDMARK KENDALL

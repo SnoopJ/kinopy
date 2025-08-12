@@ -15,7 +15,7 @@ CACHE.mkdir(exist_ok=True, parents=True)
 
 BOSTON = 2901
 
-class AlamoProvider:
+class AlamoDrafthouseProvider:
     JSON_URL = "https://drafthouse.com/s/mother/v2/schedule/market/boston"
     PRESENTATION_URL_PATT = "https://drafthouse.com/boston/show/{slug}?cinemaId={cinemaId}"
     # can also add sessionId=… to get a specific showing, not that I expect to use it
