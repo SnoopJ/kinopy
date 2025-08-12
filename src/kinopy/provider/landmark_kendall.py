@@ -8,7 +8,7 @@ from ..datamodel import CACHE_ROOT, Showing
 from ..util import daily_showings_cache, web
 
 
-CACHE = CACHE_ROOT.joinpath("SomervilleTheatre")
+CACHE = CACHE_ROOT.joinpath("LandmarkKendallSquare")
 CACHE.mkdir(exist_ok=True, parents=True)
 
 
