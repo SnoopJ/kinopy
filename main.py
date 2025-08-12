@@ -43,40 +43,40 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     # SOMERVILLE
     token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
     if token:
-        print("=== Fetching showings for: Somerville Theatre")
+        print("=== Getting showings for: Somerville Theatre")
         somerville_presentations = SomervilleTheatreProvider(veezi_token=token).showings_by_date(from_date=from_date, to_date=to_date)
         results["Somerville Theatre"] = somerville_presentations
     else:
         print("=== No access token for Somerville Theatre, skipping")
 
     # THE BRATTLE
-    print("=== Fetching showings for: The Brattle")
+    print("=== Getting showings for: The Brattle")
     brattle_presentations = BrattleProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["The Brattle"] = brattle_presentations
 
     # REGENT
-    print("=== Fetching showings for: Regent Theatre")
+    print("=== Getting showings for: Regent Theatre")
     regent_presentations = RegentTheatreProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Regent Theatre"] = regent_presentations
 
     # COOLIDGE
-    print("=== Fetching showings for: Coolidge Corner")
+    print("=== Getting showings for: Coolidge Corner")
     coolidge_presentations = CoolidgeCornerProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Coolidge Corner Theatre"] = coolidge_presentations
 
     # ALAMO
     # TODO: handle month boundary
-    print("=== Fetching showings for: Alamo Drafthouse")
+    print("=== Getting showings for: Alamo Drafthouse")
     alamo_presentations = AlamoProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Alamo Drafthouse"] = alamo_presentations
 
     # LANDMARK KENDALL
-    print("=== Fetching showings for: Landmark Kendall Square Cinema")
+    print("=== Getting showings for: Landmark Kendall Square Cinema")
     landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Landmark Kendall Square Cinema"] = landmark_presentations
 
     # APPLE CINEMAS CAMBRIDGE
-    print("=== Fetching showings for: Apple Cinemas")
+    print("=== Getting showings for: Apple Cinemas")
     apple_presentations = AppleCinemasProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Apple Cinemas"] = apple_presentations
 
