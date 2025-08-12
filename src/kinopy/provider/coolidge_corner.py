@@ -4,7 +4,7 @@ from datetime import date
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web
+from ..util import daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("CoolidgeCorner")
@@ -41,23 +41,18 @@ class CoolidgeCornerProvider:
         return result
 
     @classmethod
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_for_dates(cls, dates: list[date]) -> dict[date, list[Showing]]:
         result = {}
 
         for d in dates:
-            fn = CACHE.joinpath(f"{d.isoformat()}.html")
-            if fn.exists():
-                src = fn.read_text()
-            else:
-                url = cls.QUERY_PATTERN.format(isoformat=d.isoformat())
-                response = web.get(url)
-                response.raise_for_status()
-                src = response.content
+            url = cls.QUERY_PATTERN.format(isoformat=d.isoformat())
+            response = web.get(url)
+            response.raise_for_status()
+            src = response.content
 
-                fn.write_bytes(src)
-
-                # TODO: more sophisticated rate limiting
-                time.sleep(0.25)
+            # TODO: more sophisticated rate limiting
+            time.sleep(0.25)
 
             shows = cls.from_showing_page(date=d, page_src=src)
             result[d] = shows

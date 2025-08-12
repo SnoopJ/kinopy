@@ -1,4 +1,5 @@
 from .alamo_drafthouse import AlamoProvider
+from .apple_cinemas import AppleCinemasProvider
 from .brattle import BrattleProvider
 from .coolidge_corner import CoolidgeCornerProvider
 from .landmark_kendall import LandmarkKendallSquareProvider

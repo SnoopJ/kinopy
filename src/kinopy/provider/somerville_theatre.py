@@ -5,7 +5,7 @@ from functools import cache
 from typing import Optional
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web
+from ..util import daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("SomervilleTheatre")
@@ -80,17 +80,12 @@ class SomervilleTheatreProvider:
         return result
 
 
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_json(self) -> dict:
-        fn = CACHE.joinpath(f"{date.today().isoformat()}.json")
-        if fn.exists():
-            result = json.loads(fn.read_text())
-        else:
-            headers = {"VeeziAccessToken": self._token}
-            response = web.get(self.JSON_URL, headers=headers)
-            response.raise_for_status()
+        headers = {"VeeziAccessToken": self._token}
+        response = web.get(self.JSON_URL, headers=headers)
+        response.raise_for_status()
 
-            result = response.json()
-
-            fn.write_text(json.dumps(result))
+        result = response.json()
 
         return result

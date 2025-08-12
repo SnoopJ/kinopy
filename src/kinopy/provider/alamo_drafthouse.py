@@ -6,8 +6,7 @@ from datetime import date, datetime
 from typing import Any
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import StrEnum
-from ..util import web
+from ..util import StrEnum, daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("AlamoDrafthouse")
@@ -77,16 +76,11 @@ class AlamoProvider:
         return result
 
     @classmethod
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_json(cls) -> dict:
-        fn = CACHE.joinpath(f"{date.today().isoformat()}.json")
-        if fn.exists():
-            result = json.loads(fn.read_text())
-        else:
-            response = web.get(cls.JSON_URL)
-            response.raise_for_status()
+        response = web.get(cls.JSON_URL)
+        response.raise_for_status()
 
-            result = response.json()
-
-            fn.write_text(json.dumps(result))
+        result = response.json()
 
         return result

@@ -5,7 +5,7 @@ from functools import cache
 from typing import Iterable, Optional
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web
+from ..util import daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("SomervilleTheatre")
@@ -20,6 +20,7 @@ class LandmarkKendallSquareProvider:
     FilmID = str
 
     @classmethod
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         payload = {
             "theaters": [

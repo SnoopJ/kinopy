@@ -6,7 +6,7 @@ from urllib.parse import unquote
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web
+from ..util import daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("RegentTheatre")
@@ -131,6 +131,7 @@ class RegentTheatreProvider:
     }
 
     @classmethod
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         shows = cls.showings_json(from_date=from_date, to_date=to_date)
         results = defaultdict(list)
@@ -188,24 +189,17 @@ class RegentTheatreProvider:
 
     @classmethod
     def schedule_json(cls, from_date: date, to_date: date) -> dict:
-        fn = CACHE.joinpath(f"{from_date.isoformat()}.json")
+        url = cls.JSON_URL
+        payload = cls.EVENTON_PAYLOAD_PATTERN.copy()
+        payload["cals[evcal_calendar_685][sc][fixed_day]"] = str(from_date.day)
+        payload["cals[evcal_calendar_685][sc][fixed_month]"] = str(from_date.month)
+        payload["cals[evcal_calendar_685][sc][fixed_year]"] = str(from_date.year)
+        payload["cals[evcal_calendar_685][sc][focus_start_date_range]"] = from_date.strftime('%s')
+        payload["cals[evcal_calendar_685][sc][focus_end_date_range]"] = to_date.strftime('%s')
 
-        if fn.exists():
-            result = json.loads(fn.read_text())
-        else:
-            url = cls.JSON_URL
-            payload = cls.EVENTON_PAYLOAD_PATTERN.copy()
-            payload["cals[evcal_calendar_685][sc][fixed_day]"] = str(from_date.day)
-            payload["cals[evcal_calendar_685][sc][fixed_month]"] = str(from_date.month)
-            payload["cals[evcal_calendar_685][sc][fixed_year]"] = str(from_date.year)
-            payload["cals[evcal_calendar_685][sc][focus_start_date_range]"] = from_date.strftime('%s')
-            payload["cals[evcal_calendar_685][sc][focus_end_date_range]"] = to_date.strftime('%s')
+        response = web.post(url, data=payload)
+        response.raise_for_status()
 
-            response = web.post(url, data=payload)
-            response.raise_for_status()
-
-            result = response.json()
-
-            fn.write_text(json.dumps(result))
+        result = response.json()
 
         return result

@@ -5,7 +5,7 @@ from datetime import date
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import web
+from ..util import daily_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("Brattle")
@@ -16,18 +16,12 @@ class BrattleProvider:
     QUERY_URL = "https://brattlefilm.org/coming-soon/"
 
     @classmethod
+    @daily_cache(cachedir=CACHE, json=True)
     def showings_by_date(cls) -> dict[date, list[Showing]]:
         today = date.today()
-        fn = CACHE.joinpath(f"{today.isoformat()}.html")
-
-        if fn.exists():
-            src = fn.read_bytes()
-        else:
-            response = web.get(cls.QUERY_URL)
-            response.raise_for_status()
-            src = response.content
-
-            fn.write_bytes(src)
+        response = web.get(cls.QUERY_URL)
+        response.raise_for_status()
+        src = response.content
 
         return cls.shows_from_html(src)
 
