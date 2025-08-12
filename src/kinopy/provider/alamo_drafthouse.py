@@ -60,8 +60,8 @@ class AlamoProvider:
         return shows_by_date
 
     @classmethod
-    def sessions_by_date(cls, data: dict, presentation_data: dict) -> SessionsByPresentation:
-        result: dict[date, SessionsByPresentation] = defaultdict(lambda: defaultdict(list))
+    def sessions_by_date(cls, data: dict, presentation_data: dict) -> dict[date, dict[str, list]]:
+        result: dict[date, dict[str, list]] = defaultdict(lambda: defaultdict(list))
 
         for ses in data["data"]["sessions"]:
             slug = ses["presentationSlug"]
