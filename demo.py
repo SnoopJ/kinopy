@@ -10,6 +10,7 @@ from textwrap import dedent
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
 from kinopy.provider import (
     AlamoProvider,
+    AppleCinemasProvider,
     BrattleProvider,
     CoolidgeCornerProvider,
     LandmarkKendallSquareProvider,
@@ -71,6 +72,10 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     # LANDMARK KENDALL
     landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
     results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates}
+
+    # APPLE CINEMAS CAMBRIDGE
+    apple_presentations = AppleCinemasProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
+    results["Apple Cinemas"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in apple_presentations.items() if dt in dates}
 
     return results
 

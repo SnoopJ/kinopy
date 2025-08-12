@@ -8,6 +8,8 @@ dynamic = ["version"]
 requires-python = ">=3.9"
 dependencies = [
     "backports.strenum ; python_version < '3.11'",
+    # NOTE: curl_cffi is a wrapper of curl-impersonate, which is useful to get around TLS fingerprinting
+    "curl_cffi",
     "lxml",
     "requests",
     "tomli ; python_version < '3.11'",
