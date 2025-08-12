@@ -13,6 +13,7 @@ from kinopy.provider import (
     AppleCinemasProvider,
     BrattleProvider,
     CoolidgeCornerProvider,
+    HarvardFilmArchiveProvider,
     LandmarkKendallSquareProvider,
     RegentTheatreProvider,
     SomervilleTheatreProvider,
@@ -40,6 +41,8 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     from_date = date.today()
     to_date = from_date + timedelta(days=6)
 
+    # TODO: I am not sure this code does the right thing when the next week crosses a month boundary
+
     # SOMERVILLE
     token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
     if token:
@@ -59,13 +62,17 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     regent_presentations = RegentTheatreProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Regent Theatre"] = regent_presentations
 
+    # HARVARD FILM ARCHIVE
+    print("=== Getting showings for: Harvard Film Archive")
+    harvard_presentations = HarvardFilmArchiveProvider.showings_by_date(from_date=from_date, to_date=to_date)
+    results["Harvard Film Archive"] = harvard_presentations
+
     # COOLIDGE
     print("=== Getting showings for: Coolidge Corner")
     coolidge_presentations = CoolidgeCornerProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Coolidge Corner Theatre"] = coolidge_presentations
 
     # ALAMO
-    # TODO: handle month boundary
     print("=== Getting showings for: Alamo Drafthouse")
     alamo_presentations = AlamoDrafthouseProvider().showings_by_date(from_date=from_date, to_date=to_date)
     results["Alamo Drafthouse"] = alamo_presentations

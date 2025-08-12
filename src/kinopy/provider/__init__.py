@@ -2,6 +2,7 @@ from .alamo_drafthouse import AlamoDrafthouseProvider
 from .apple_cinemas import AppleCinemasProvider
 from .brattle import BrattleProvider
 from .coolidge_corner import CoolidgeCornerProvider
+from .harvard_film_archive import HarvardFilmArchiveProvider
 from .landmark_kendall import LandmarkKendallSquareProvider
 from .regent_theatre import RegentTheatreProvider
 from .somerville_theatre import SomervilleTheatreProvider
