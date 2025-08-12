@@ -9,7 +9,7 @@ from typing import Optional
 import curl_cffi
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import daily_cache
+from ..util import daily_showings_cache
 
 CACHE = CACHE_ROOT.joinpath("AppleCinemas")
 CACHE.mkdir(exist_ok=True, parents=True)
@@ -26,6 +26,7 @@ class AppleCinemasProvider:
     MovieID = str
 
     @classmethod
+    @daily_showings_cache(cachedir=CACHE)
     def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         sched = cls.schedule(from_date=from_date, to_date=to_date)
 
@@ -60,10 +61,11 @@ class AppleCinemasProvider:
                         results[dt].append(s)
                         seen.add((dt, movID))
 
+        results = {dt: sorted(shows, key=lambda s: s.title) for dt, shows in results.items() if from_date <= dt <= to_date}
+
         return results
 
     @classmethod
-    @daily_cache(cachedir=CACHE, json=True)
     def schedule(cls, from_date: date, to_date: date) -> dict[MovieID, list]:
         all_movies_response = curl_cffi.get(cls.ALL_MOVIES_URL, impersonate="firefox")
         all_movies_response.raise_for_status()

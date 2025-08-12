@@ -5,25 +5,26 @@ from datetime import date
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import daily_cache, web
+from ..util import daily_showings_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("Brattle")
 CACHE.mkdir(exist_ok=True, parents=True)
 
-
 class BrattleProvider:
     QUERY_URL = "https://brattlefilm.org/coming-soon/"
 
     @classmethod
-    @daily_cache(cachedir=CACHE, json=True)
-    def showings_by_date(cls) -> dict[date, list[Showing]]:
+    @daily_showings_cache(cachedir=CACHE)
+    def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         today = date.today()
         response = web.get(cls.QUERY_URL)
         response.raise_for_status()
         src = response.content
 
-        return cls.shows_from_html(src)
+        result = {dt: sorted(shows, key=lambda s: s.title) for dt, shows in cls.shows_from_html(src).items() if from_date <= dt <= to_date}
+
+        return result
 
     @classmethod
     def shows_from_html(cls, html: bytes) -> dict[date, list[Showing]]:
@@ -52,7 +53,7 @@ class BrattleProvider:
             dates = set(date.fromtimestamp(int(node.attrib["data-date"])) for node in date_children)
             for d in dates:
                 s = Showing(
-                    date=d,
+                    date=str(d),
                     title=title,
                     url=url,
                     excerpt=excerpt,

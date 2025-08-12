@@ -5,7 +5,7 @@ from typing import Optional
 
 @dataclass
 class Showing:
-    date: date
+    date: str
     title: str
     url: str
 

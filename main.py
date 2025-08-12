@@ -37,45 +37,48 @@ else:
 def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     results = {}
 
-    today = date.today()
-    nextweek = today + timedelta(days=7)
-    dates = [today+timedelta(days=n) for n in range(7)]
+    from_date = date.today()
+    to_date = from_date + timedelta(days=6)
 
     # SOMERVILLE
     token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
     if token:
-        somerville_presentations = SomervilleTheatreProvider(veezi_token=token).showings_by_date()
-        results["Somerville Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in somerville_presentations.items() if dt in dates}
+        print("=== Fetching showings for: Somerville Theatre")
+        somerville_presentations = SomervilleTheatreProvider(veezi_token=token).showings_by_date(from_date=from_date, to_date=to_date)
+        results["Somerville Theatre"] = somerville_presentations
     else:
-        print("No access token for Somerville Theatre, skipping")
+        print("=== No access token for Somerville Theatre, skipping")
 
     # THE BRATTLE
-    brattle_presentations = BrattleProvider().showings_by_date()
-    results["The Brattle"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in brattle_presentations.items() if dt in dates}
+    print("=== Fetching showings for: The Brattle")
+    brattle_presentations = BrattleProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["The Brattle"] = brattle_presentations
 
     # REGENT
-    regent_presentations = RegentTheatreProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
-    results["Regent Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in regent_presentations.items()}
+    print("=== Fetching showings for: Regent Theatre")
+    regent_presentations = RegentTheatreProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["Regent Theatre"] = regent_presentations
 
     # COOLIDGE
-    coolidge_presentations = CoolidgeCornerProvider().showings_for_dates(dates=dates)
-    results["Coolidge Corner Theatre"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in coolidge_presentations.items()}
+    print("=== Fetching showings for: Coolidge Corner")
+    coolidge_presentations = CoolidgeCornerProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["Coolidge Corner Theatre"] = coolidge_presentations
 
     # ALAMO
-    alamo_src = AlamoProvider.showings_json()
-    alamo_presentations = AlamoProvider().from_json(alamo_src)
-    alamo_filtered = {dt.day: sorted((show for slug,show in pres.items()), key=lambda show: show.title) for dt, pres in alamo_presentations.items() if dt < nextweek}
-    # NOTE: the sort here gives a nice ordering on the page for presentations showing on multiple days
     # TODO: handle month boundary
-    results["Alamo Drafthouse"] = alamo_filtered
+    print("=== Fetching showings for: Alamo Drafthouse")
+    alamo_presentations = AlamoProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["Alamo Drafthouse"] = alamo_presentations
 
     # LANDMARK KENDALL
-    landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
-    results["Landmark Kendall Square Cinema"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in landmark_presentations.items() if dt in dates}
+    print("=== Fetching showings for: Landmark Kendall Square Cinema")
+    landmark_presentations = LandmarkKendallSquareProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["Landmark Kendall Square Cinema"] = landmark_presentations
 
     # APPLE CINEMAS CAMBRIDGE
-    apple_presentations = AppleCinemasProvider().showings_by_date(from_date=dates[0], to_date=dates[-1])
-    results["Apple Cinemas"] = {dt.day: sorted(shows, key=lambda s: s.title) for dt, shows in apple_presentations.items() if dt in dates}
+    print("=== Fetching showings for: Apple Cinemas")
+    apple_presentations = AppleCinemasProvider().showings_by_date(from_date=from_date, to_date=to_date)
+    results["Apple Cinemas"] = apple_presentations
 
     return results
 

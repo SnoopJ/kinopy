@@ -7,7 +7,7 @@ from urllib.parse import unquote
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import daily_cache, web
+from ..util import daily_showings_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("RegentTheatre")
@@ -146,7 +146,7 @@ class RegentTheatreProvider:
         return m.group(1).decode()
 
     @classmethod
-    @daily_cache(cachedir=CACHE, json=True)
+    @daily_showings_cache(cachedir=CACHE)
     def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         shows = cls.showings_json(from_date=from_date, to_date=to_date)
         results = defaultdict(list)
@@ -174,6 +174,8 @@ class RegentTheatreProvider:
                 excerpt=excerpt,
             )
             results[dt].append(s)
+
+        results = {dt: sorted(shows, key=lambda s: s.title) for dt, shows in results.items() if from_date <= dt <= to_date}
 
         return results
 

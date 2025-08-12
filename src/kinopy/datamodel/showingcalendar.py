@@ -17,7 +17,7 @@ class ShowingCalendar(HTMLCalendar):
 
     # NOTE: this signature does not allow for multiple days with the same number across month boundaries but I'm not
     # sure it matters since I'm pretty rapidly orienting around using weeks and weeks do not have this problem
-    def __init__(self, shows: dict[Day, Showing]):
+    def __init__(self, shows: dict[Cinema, dict[date, Showing]]):
         self._shows = shows
         super().__init__()
 
@@ -33,6 +33,11 @@ class ShowingCalendar(HTMLCalendar):
 
             wd = self.cssclasses[weekday]
             for cinema, shows in self._shows.items():
+                # TODO: stupid hack because the core datamodel uses `date` but this code bodged together from HTMLCalendar
+                # is oriented around integer days. This whole thing probably needs a rewrite to orient around `date` objects,
+                # but for now we'll shim here
+                shows = {dt.day: v for dt,v in shows.items()}
+
                 shows_txt = "\n".join(f'<li><a href="{show.url}"><i>{show.title}</i></a></li>' for show in shows.get(day, []))
 
                 if not shows_txt:

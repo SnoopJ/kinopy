@@ -1,10 +1,10 @@
 import time
-from datetime import date
+from datetime import date, timedelta
 
 import lxml.html
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import daily_cache, web
+from ..util import daily_showings_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("CoolidgeCorner")
@@ -25,7 +25,7 @@ class CoolidgeCornerProvider:
         excerpt = excerpt_tag.text_content()
 
         return Showing(
-            date=date,
+            date=str(date),
             title=title,
             url=url,
             excerpt=excerpt,
@@ -41,7 +41,14 @@ class CoolidgeCornerProvider:
         return result
 
     @classmethod
-    @daily_cache(cachedir=CACHE, json=True)
+    @daily_showings_cache(cachedir=CACHE)
+    def showings_by_date(cls, from_date: date, to_date: date) -> dict[date, list[Showing]]:
+        ndays = (to_date - from_date).days
+        dates = [from_date + timedelta(days=n) for n in range(ndays+1)]
+
+        return cls.showings_for_dates(dates)
+
+    @classmethod
     def showings_for_dates(cls, dates: list[date]) -> dict[date, list[Showing]]:
         result = {}
 
@@ -56,5 +63,7 @@ class CoolidgeCornerProvider:
 
             shows = cls.from_showing_page(date=d, page_src=src)
             result[d] = shows
+
+        result = {dt: sorted(shows, key=lambda s: s.title) for dt, shows in result.items() if dt in dates}
 
         return result

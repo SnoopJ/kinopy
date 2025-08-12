@@ -5,7 +5,7 @@ from functools import cache
 from typing import Optional
 
 from ..datamodel import CACHE_ROOT, Showing
-from ..util import daily_cache, web
+from ..util import daily_showings_cache, web
 
 
 CACHE = CACHE_ROOT.joinpath("SomervilleTheatre")
@@ -46,7 +46,8 @@ class SomervilleTheatreProvider:
         return result
 
 
-    def showings_by_date(self) -> dict[date, list[Showing]]:
+    @daily_showings_cache(cachedir=CACHE)
+    def showings_by_date(self, from_date: date, to_date: date) -> dict[date, list[Showing]]:
         result = defaultdict(list)
         data = self.showings_json()
 
@@ -77,10 +78,11 @@ class SomervilleTheatreProvider:
 
             result[dt].append(show)
 
+        result = {dt: sorted(shows, key=lambda s: s.title) for dt, shows in result.items() if from_date <= dt <= to_date}
+
         return result
 
 
-    @daily_cache(cachedir=CACHE, json=True)
     def showings_json(self) -> dict:
         headers = {"VeeziAccessToken": self._token}
         response = web.get(self.JSON_URL, headers=headers)
