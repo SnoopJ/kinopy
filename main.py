@@ -41,6 +41,13 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     from_date = date.today()
     to_date = from_date + timedelta(days=6)
 
+    # TODO: Create heuristic for filtering out "mass-market" new releases. A single checkbox to show/hide these is fine in the UI,
+    # and I think it might be enough to create this class of films by checking how many times a movie appears on the calendar. If
+    # a movie appears multiple times across multiple theatres, it's likely a new release. May need to hold onto historical data to
+    # do this right though.
+
+    # TODO (maybe): related to above remark: a local database more sophisticated than the existing cache could be useful
+
     # TODO: I am not sure this code does the right thing when the next week crosses a month boundary
 
     # SOMERVILLE
