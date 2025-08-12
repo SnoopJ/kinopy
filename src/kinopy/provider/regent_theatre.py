@@ -1,4 +1,5 @@
 import json
+import re
 from collections import defaultdict
 from datetime import date
 from urllib.parse import unquote
@@ -14,7 +15,9 @@ CACHE.mkdir(exist_ok=True, parents=True)
 
 
 class RegentTheatreProvider:
+    SCHEDULE_URL = "https://regenttheatre.com/schedule/"
     JSON_URL = "https://regenttheatre.com/?evo-ajax=eventon_init_load"
+
     EVENTON_PAYLOAD_PATTERN = {
         "global[calendars][]": "EVOFC",
         "cals[evcal_calendar_685][sc][accord]": "no",
@@ -126,9 +129,21 @@ class RegentTheatreProvider:
         "cals[evcal_calendar_685][sc][yl_priority]": "no",
         "cals[evcal_calendar_685][sc][yl_toend]": "no",
         "cals[evcal_calendar_685][sc][_cver]": "4.9.11",
-        # NOTE: I am not sure if this nonce actually changes
-        "nonce": "95e6b2f613"
+        # NOTE: I believe this nonce changes every day, but it's baked into the schedule page, so we can get it as needed
+        "nonce": None,
     }
+
+    @classmethod
+    def fetch_nonce(cls) -> str:
+        response = web.get(cls.SCHEDULE_URL)
+        response.raise_for_status()
+
+        nonce_pattern = rb'"postnonce":"([^"]+)"'
+        m = re.search(nonce_pattern, response.content)
+        if not m:
+            raise ValueError("Nonce not found in page data")
+
+        return m.group(1).decode()
 
     @classmethod
     @daily_cache(cachedir=CACHE, json=True)
@@ -196,6 +211,7 @@ class RegentTheatreProvider:
         payload["cals[evcal_calendar_685][sc][fixed_year]"] = str(from_date.year)
         payload["cals[evcal_calendar_685][sc][focus_start_date_range]"] = from_date.strftime('%s')
         payload["cals[evcal_calendar_685][sc][focus_end_date_range]"] = to_date.strftime('%s')
+        payload["nonce"] = cls.fetch_nonce()
 
         response = web.post(url, data=payload)
         response.raise_for_status()
