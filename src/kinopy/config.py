@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from typing import Optional
 
 from pydantic import Field
@@ -11,7 +12,10 @@ from kinopy.provider import (
 
 
 class KinopyTomlSettingsSource(TomlConfigSettingsSource):
-    def __init__(self, settings_cls: type[BaseSettings], toml_file="kinopy.toml"):
+    def __init__(self, settings_cls: type[BaseSettings], toml_file: Optional[os.PathLike] = None):
+        if toml_file is None:
+            toml_file = os.environ.get("KINOPY_CONFIG", "kinopy.toml")
+
         self.toml_file_path = toml_file
         self.toml_data = self._read_files(self.toml_file_path).get("kinopy", {})
 

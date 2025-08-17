@@ -23,10 +23,13 @@ class SomervilleTheatreProvider:
         token: Optional[SecretStr] = Field(default=None, example="<Somerville Theatre Veezi token>")
 
     def __init__(self, kinopy_config: BaseSettings):
+        if kinopy_config.provider is None:
+            raise ValueError("Veezi token not available")
+
         config = kinopy_config.provider.somerville_theatre
 
         if config is None or config.token is None:
-            raise ValueError("Veezi token not available, cannot provide Somerville Theatre listings")
+            raise ValueError("Veezi token not available")
 
         self._token = config.token
 
