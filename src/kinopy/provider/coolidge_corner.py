@@ -11,6 +11,9 @@ CACHE = CACHE_ROOT.joinpath("CoolidgeCorner")
 CACHE.mkdir(exist_ok=True, parents=True)
 
 
+# TODO:Consider collating "Seminar" events together with their associated film
+# TODO:Scrape event tags, indicate free ones, mark new releases?
+
 class CoolidgeCornerProvider:
     QUERY_PATTERN = "https://coolidge.org/showtimes?date={isoformat}"
 
