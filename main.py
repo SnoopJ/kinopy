@@ -7,6 +7,7 @@ from datetime import date, timedelta
 from pathlib import Path
 from textwrap import dedent
 
+from kinopy.config import kinopy_config
 from kinopy.datamodel import Day, Cinema, Showing, ShowingCalendar
 from kinopy.provider import (
     AlamoDrafthouseProvider,
@@ -19,22 +20,8 @@ from kinopy.provider import (
     SomervilleTheatreProvider,
 )
 
-if sys.version_info < (3, 11):
-    import tomli as tomllib
-else:
-    import tomllib
-
 
 HERE = Path(__file__).parent
-CONFIG_FILE = HERE.joinpath("kinopy.toml")
-
-if CONFIG_FILE.exists():
-    with open(CONFIG_FILE, "rb") as f:
-        CONFIG = tomllib.load(f)
-else:
-    CONFIG = {}
-
-
 def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     results = {}
 
@@ -51,13 +38,12 @@ def showings_by_cinema() -> dict[Cinema, dict[Day, Showing]]:
     # TODO: I am not sure this code does the right thing when the next week crosses a month boundary
 
     # SOMERVILLE
-    token = CONFIG.get("kinopy", {}).get("provider", {}).get("somerville_theatre", {}).get("token")
-    if token:
+    try:
         print("=== Getting showings for: Somerville Theatre")
-        somerville_presentations = SomervilleTheatreProvider(veezi_token=token).showings_by_date(from_date=from_date, to_date=to_date)
+        somerville_presentations = SomervilleTheatreProvider(kinopy_config).showings_by_date(from_date=from_date, to_date=to_date)
         results["Somerville Theatre"] = somerville_presentations
-    else:
-        print("=== No access token for Somerville Theatre, skipping")
+    except Exception as exc:
+        print(f"=== FAILED to retrieve Somerville Theatre listings: {exc}")
 
     # THE BRATTLE
     print("=== Getting showings for: The Brattle")

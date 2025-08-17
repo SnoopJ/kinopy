@@ -4,6 +4,9 @@ from datetime import date, datetime
 from functools import cache
 from typing import Optional
 
+from pydantic import Field, SecretStr
+from pydantic_settings import BaseSettings
+
 from ..datamodel import CACHE_ROOT, Showing
 from ..util import daily_showings_cache, web
 
@@ -16,8 +19,16 @@ class SomervilleTheatreProvider:
     JSON_URL = "https://api.us.veezi.com/v1/websession"
     PRODUCTION_URL_PATTERN = "https://www.somervilletheatre.com/production/{slug}/"
 
-    def __init__(self, veezi_token: str):
-        self._token = veezi_token
+    class Config(BaseSettings):
+        token: Optional[SecretStr] = Field(default=None, example="<Somerville Theatre Veezi token>")
+
+    def __init__(self, kinopy_config: BaseSettings):
+        config = kinopy_config.provider.somerville_theatre
+
+        if config is None or config.token is None:
+            raise ValueError("Veezi token not available, cannot provide Somerville Theatre listings")
+
+        self._token = config.token
 
     @classmethod
     @cache
@@ -85,7 +96,7 @@ class SomervilleTheatreProvider:
 
 
     def showings_json(self) -> dict:
-        headers = {"VeeziAccessToken": self._token}
+        headers = {"VeeziAccessToken": self._token.get_secret_value()}
         response = web.get(self.JSON_URL, headers=headers)
         response.raise_for_status()
 

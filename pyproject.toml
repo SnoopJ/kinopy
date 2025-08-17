@@ -11,6 +11,8 @@ dependencies = [
     # NOTE: curl_cffi is a wrapper of curl-impersonate, which is useful to get around TLS fingerprinting
     "curl_cffi",
     "lxml",
+    "pydantic>=2.11, <3",
+    "pydantic-settings>=2.10, <3",
     "requests",
     "tomli ; python_version < '3.11'",
 ]
